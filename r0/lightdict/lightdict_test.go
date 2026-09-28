@@ -36,3 +36,67 @@ func TestLookup(t *testing.T) {
 		t.Fatalf("allocs %v", allocs)
 	}
 }
+
+func TestChildren(t *testing.T) {
+	root := lightdict.ByID(1)
+	var direct []int
+	for child := range root.ChildrenNodes {
+		direct = append(direct, child.ID())
+	}
+	if len(direct) != len(root.Children()) || direct[0] != 33 {
+		t.Fatalf("direct %v", direct)
+	}
+
+	var ids []int
+	for id := range root.AllChildren {
+		ids = append(ids, id)
+		if len(ids) == 6 {
+			break
+		}
+	}
+	if len(ids) != 6 || ids[0] != 33 || ids[1] != 540 || ids[5] != 34 {
+		t.Fatalf("all %v", ids)
+	}
+
+	var nodes []int
+	for child := range root.AllChildrenNodes {
+		nodes = append(nodes, child.ID())
+		if len(nodes) == len(ids) {
+			break
+		}
+	}
+	for i := range ids {
+		if nodes[i] != ids[i] {
+			t.Fatalf("order ids %v nodes %v", ids, nodes)
+		}
+	}
+
+	n := 0
+	for range lightdict.ByID(497).AllChildren {
+		n++
+	}
+	var none *lightdict.Node
+	for range none.ChildrenNodes {
+		n++
+	}
+	if n != 0 {
+		t.Fatalf("empty %d", n)
+	}
+
+	allocs := testing.AllocsPerRun(100, func() {
+		for id := range root.AllChildren {
+			childSink = id
+		}
+		for child := range root.ChildrenNodes {
+			childSink = child.ID()
+		}
+		for child := range root.AllChildrenNodes {
+			childSink = child.ID()
+		}
+	})
+	if allocs != 0 {
+		t.Fatalf("allocs %v", allocs)
+	}
+}
+
+var childSink int

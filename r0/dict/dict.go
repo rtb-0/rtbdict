@@ -163,6 +163,54 @@ func (n *Node) Children() []int {
 	return n.children
 }
 
+// ChildrenNodes iterates the direct child categories, in Children order.
+func (n *Node) ChildrenNodes(yield func(*Node) bool) {
+	if n == nil {
+		return
+	}
+	for _, id := range n.children {
+		if !yield(ByID(id)) {
+			return
+		}
+	}
+}
+
+// AllChildren iterates the id of every descendant.
+// A child comes before that child's subtree, then the next sibling.
+func (n *Node) AllChildren(yield func(int) bool) {
+	if n == nil {
+		return
+	}
+	n.walkIDs(yield)
+}
+
+func (n *Node) walkIDs(yield func(int) bool) bool {
+	for _, id := range n.children {
+		if !yield(id) || !ByID(id).walkIDs(yield) {
+			return false
+		}
+	}
+	return true
+}
+
+// AllChildrenNodes iterates every descendant category, in AllChildren order.
+func (n *Node) AllChildrenNodes(yield func(*Node) bool) {
+	if n == nil {
+		return
+	}
+	n.walkNodes(yield)
+}
+
+func (n *Node) walkNodes(yield func(*Node) bool) bool {
+	for _, id := range n.children {
+		child := ByID(id)
+		if !yield(child) || !child.walkNodes(yield) {
+			return false
+		}
+	}
+	return true
+}
+
 // ByID returns the category with this r0 id. An unknown id returns nil.
 func ByID(id int) *Node {
 	if id < 1 || id > len(nodes) {

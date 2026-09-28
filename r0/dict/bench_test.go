@@ -25,3 +25,32 @@ func BenchmarkByKeyword(b *testing.B) {
 		sink = dict.ByKeyword("CLOUD STORAGE").R0Code()
 	}
 }
+
+func BenchmarkChildrenNodes(b *testing.B) {
+	root := dict.ByID(1)
+	for i := 0; i < b.N; i++ {
+		for child := range root.ChildrenNodes {
+			sinkID = child.ID()
+		}
+	}
+}
+
+func BenchmarkAllChildren(b *testing.B) {
+	root := dict.ByID(1)
+	for i := 0; i < b.N; i++ {
+		for id := range root.AllChildren {
+			sinkID = id
+		}
+	}
+}
+
+func BenchmarkAllChildrenNodes(b *testing.B) {
+	root := dict.ByID(1)
+	for i := 0; i < b.N; i++ {
+		for child := range root.AllChildrenNodes {
+			sinkID = child.ID()
+		}
+	}
+}
+
+var sinkID int
