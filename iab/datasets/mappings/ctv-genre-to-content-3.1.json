@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "id": "iab.map.ctv-genre.content-3.1",
+    "kind": "mapping",
+    "name": "CTV Genre to Content 3.1",
+    "to": "iab.content.3.1",
+    "to_cattax": 9,
+    "publisher": "IAB Tech Lab",
+    "page": "https://iabtechlab.com/standards/content-taxonomy/",
+    "source": "https://github.com/InteractiveAdvertisingBureau/Taxonomies/blob/main/Taxonomy%20Mappings/CTV%20Genre%20Mapping.tsv",
+    "released": "2024-12"
+  },
+  "entries": [
+    {
+      "from": {
+        "name": "Action"
+      },
+      "to": {
+        "id": "325",
+        "name": "Action/Adventure"
+      }
+    },
+    {
+      "from": {
+        "name": "Adventure"
+      },
+      "to": {
+        "id": "325",
+        "name": "Action/Adventure"
+      }
+    },
+    {
+      "from": {
+        "name": "Animals"
+      },
+      "to": {
+        "id": "422",
+        "name": "Pets"
+      }
+    },
+    {
+      "from": {
+        "name": "Animation"
+      },
+      "to": {
+        "id": "641",
+        "name": "Animation & Anime"
+      }
+    },
+    {
+      "from": {
+        "name": "Anime"
+      },
+      "to": {
+        "id": "641",
+        "name": "Animation & Anime"
+      }
+    },
+    {
+      "from": {
+        "name": "Arts"
+      },
+      "to": {
+        "id": "201",
+        "name": "Fine Art"
+      }
+    },
+    {
+      "from": {
+        "name": "Automotive"
+      },
+      "to": {
+        "id": "1",
+        "name": "Automotive"
+      }
+    },
+    {
+      "from": {
+        "name": "Awards"
+      },
+      "to": {
+        "id": "162",
+        "name": "Awards Shows"
+      }
+    },
+    {
+      "from": {
+        "name": "Biography"
+      },
+      "to": {
+        "id": "44",
+        "name": "Biographies"
+      }
+    },
+    {
+      "from": {
+        "name": "Business & Finance"
+      },
+      "to": {
+        "id": "52",
+        "name": "Business and Finance"
+      }
+    },
+    {
+      "from": {
+        "name": "Children"
+      },
+      "to": {
+        "id": "645",
+        "name": "Family/Children"
+      }
+    },
+    {
+      "from": {
+        "name": "Comedy"
+      },
+      "to": {
+        "id": "646",
+        "name": "Comedy"
+      }
+    },
+    {
+      "from": {
+        "name": "Cooking"
+      },
+      "to": {
+        "id": "216",
+        "name": "Cooking"
+      }
+    },
+    {
+      "from": {
+        "name": "Crime"
+      },
+      "to": {
+        "id": "KHPC5A",
+        "name": "True Crime"
+      }
+    },
+    {
+      "from": {
+        "name": "Documentary"
+      },
+      "to": {
+        "id": "332",
+        "name": "Documentary"
+      }
+    },
+    {
+      "from": {
+        "name": "Drama"
+      },
+      "to": {
+        "id": "647",
+        "name": "Drama"
+      }
+    },
+    {
+      "from": {
+        "name": "Education"
+      },
+      "to": {
+        "id": "132",
+        "name": "Education"
+      }
+    },
+    {
+      "from": {
+        "name": "Family"
+      },
+      "to": {
+        "id": "645",
+        "name": "Family/Children"
+      }
+    },
+    {
+      "from": {
+        "name": "Fantasy"
+      },
+      "to": {
+        "id": "335",
+        "name": "Fantasy"
+      }
+    },
+    {
+      "from": {
+        "name": "Game Show"
+      },
+      "to": {
+        "id": "JLBCU7",
+        "name": "Entertainment"
+      }
+    },
+    {
+      "from": {
+        "name": "Gaming"
+      },
+      "to": {
+        "id": "680",
+        "name": "Video Gaming"
+      }
+    },
+    {
+      "from": {
+        "name": "History"
+      },
+      "to": {
+        "id": "EZWB7V",
+        "name": "History"
+      }
+    },
+    {
+      "from": {
+        "name": "Hobbies"
+      },
+      "to": {
+        "id": "239",
+        "name": "Hobbies & Interests"
+      }
+    },
+    {
+      "from": {
+        "name": "Holidays"
+      },
+      "to": {
+        "id": "649",
+        "name": "Holiday"
+      }
+    },
+    {
+      "from": {
+        "name": "Home & Garden"
+      },
+      "to": {
+        "id": "274",
+        "name": "Home & Garden"
+      }
+    },
+    {
+      "from": {
+        "name": "Horror"
+      },
+      "to": {
+        "id": "336",
+        "name": "Horror"
+      }
+    },
+    {
+      "from": {
+        "name": "Law"
+      },
+      "to": {
+        "id": "383",
+        "name": "Law"
+      }
+    },
+    {
+      "from": {
+        "name": "Mystery"
+      },
+      "to": {
+        "id": "331",
+        "name": "Mystery"
+      }
+    },
+    {
+      "from": {
+        "name": "News"
+      },
+      "to": {
+        "id": "1020",
+        "name": "News"
+      }
+    },
+    {
+      "from": {
+        "name": "Outdoors"
+      },
+      "to": {
+        "id": "159",
+        "name": "Outdoor Activities"
+      }
+    },
+    {
+      "from": {
+        "name": "Paranormal"
+      },
+      "to": {
+        "id": "244",
+        "name": "Parnormal Phenomenons"
+      }
+    },
+    {
+      "from": {
+        "name": "Politics"
+      },
+      "to": {
+        "id": "386",
+        "name": "Politics"
+      }
+    },
+    {
+      "from": {
+        "name": "Reality"
+      },
+      "to": {
+        "id": "651",
+        "name": "Reality TV"
+      }
+    },
+    {
+      "from": {
+        "name": "Religion"
+      },
+      "to": {
+        "id": "453",
+        "name": "Religion & Spirituality"
+      }
+    },
+    {
+      "from": {
+        "name": "Romance"
+      },
+      "to": {
+        "id": "326",
+        "name": "Romance"
+      }
+    },
+    {
+      "from": {
+        "name": "Sci-Fi"
+      },
+      "to": {
+        "id": "652",
+        "name": "Science Fiction"
+      }
+    },
+    {
+      "from": {
+        "name": "Sitcom"
+      },
+      "to": {
+        "id": "646",
+        "name": "Comedy"
+      }
+    },
+    {
+      "from": {
+        "name": "Soap-Opera"
+      },
+      "to": {
+        "id": "642",
+        "name": "Soap Opera"
+      }
+    },
+    {
+      "from": {
+        "name": "Sports"
+      },
+      "to": {
+        "id": "483",
+        "name": "Sports"
+      }
+    },
+    {
+      "from": {
+        "name": "Thriller"
+      },
+      "to": {
+        "id": "700",
+        "name": "Thriller"
+      }
+    },
+    {
+      "from": {
+        "name": "War"
+      },
+      "to": {
+        "id": "389",
+        "name": "War and Conflicts"
+      }
+    },
+    {
+      "from": {
+        "name": "Weather"
+      },
+      "to": {
+        "id": "390",
+        "name": "Weather"
+      }
+    },
+    {
+      "from": {
+        "name": "Western"
+      },
+      "to": {
+        "id": "KHPC6A",
+        "name": "Western"
+      }
+    },
+    {
+      "from": {
+        "name": "Young Adult"
+      },
+      "to": {
+        "id": "51",
+        "name": "Young Adult"
+      }
+    }
+  ]
+}

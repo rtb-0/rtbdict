@@ -1,0 +1,5565 @@
+{
+  "meta": {
+    "id": "iab.map.content-1.0.content-2.0",
+    "kind": "mapping",
+    "name": "Content 1.0 to Content 2.0",
+    "from": "iab.content.1.0",
+    "from_cattax": 1,
+    "to": "iab.content.2.0",
+    "to_cattax": 2,
+    "publisher": "IAB Tech Lab",
+    "page": "https://iabtechlab.com/standards/content-taxonomy/",
+    "source": "https://github.com/InteractiveAdvertisingBureau/Taxonomies/blob/main/Taxonomy%20Mappings/Content%201.0%20to%20Content%202.0.tsv",
+    "released": "2023-11"
+  },
+  "entries": [
+    {
+      "from": {
+        "id": "IAB1",
+        "name": "Arts & Entertainment"
+      },
+      "to": {
+        "id": "1014",
+        "name": "Entertainment Content",
+        "path": [
+          "Content Type",
+          "Entertainment Content"
+        ]
+      },
+      "note": "One to Many"
+    },
+    {
+      "from": {
+        "id": "IAB1-1",
+        "name": "Books & Literature"
+      },
+      "to": {
+        "id": "42",
+        "name": "Books and Literature",
+        "path": [
+          "Books and Literature"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB1-2",
+        "name": "Celebrity Fan/Gossip"
+      },
+      "to": {
+        "id": "432",
+        "name": "Pop Culture",
+        "path": [
+          "Pop Culture"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB1-3",
+        "name": "Fine Art"
+      },
+      "to": {
+        "id": "201",
+        "name": "Fine Art",
+        "path": [
+          "Fine Art"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB1-4",
+        "name": "Humor"
+      },
+      "to": {
+        "id": "440",
+        "name": "Humor and Satire",
+        "path": [
+          "Pop Culture",
+          "Humor and Satire"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB1-5",
+        "name": "Movies"
+      },
+      "to": {
+        "id": "324",
+        "name": "Movies",
+        "path": [
+          "Movies"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB1-6",
+        "name": "Music"
+      },
+      "to": {
+        "id": "338",
+        "name": "Music and Audio",
+        "path": [
+          "Music and Audio"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB1-7",
+        "name": "Television"
+      },
+      "to": {
+        "id": "640",
+        "name": "Television",
+        "path": [
+          "Television"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2",
+        "name": "Automotive"
+      },
+      "to": {
+        "id": "1",
+        "name": "Automotive",
+        "path": [
+          "Automotive"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-1",
+        "name": "Auto Parts"
+      },
+      "to": {
+        "id": "32",
+        "name": "Auto Parts",
+        "path": [
+          "Automotive",
+          "Auto Parts"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-2",
+        "name": "Auto Repair"
+      },
+      "to": {
+        "id": "34",
+        "name": "Auto Repair",
+        "path": [
+          "Automotive",
+          "Auto Repair"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-3",
+        "name": "Buying/Selling Cars"
+      },
+      "to": {
+        "id": "30",
+        "name": "Auto Buying and Selling",
+        "path": [
+          "Automotive",
+          "Auto Buying and Selling"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-4",
+        "name": "Car Culture"
+      },
+      "to": {
+        "id": "25",
+        "name": "Car Culture",
+        "path": [
+          "Automotive",
+          "Car Culture"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-5",
+        "name": "Certified Pre-Owned"
+      },
+      "to": {
+        "id": "18",
+        "name": "Certified Pre-Owned Cars",
+        "path": [
+          "Automotive",
+          "Auto Type",
+          "Certified Pre-Owned Cars"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-6",
+        "name": "Convertible"
+      },
+      "to": {
+        "id": "8",
+        "name": "Convertible",
+        "path": [
+          "Automotive",
+          "Auto Body Styles",
+          "Convertible"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-7",
+        "name": "Coupe"
+      },
+      "to": {
+        "id": "9",
+        "name": "Coupe",
+        "path": [
+          "Automotive",
+          "Auto Body Styles",
+          "Coupe"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-8",
+        "name": "Crossover"
+      },
+      "to": {
+        "id": "10",
+        "name": "Crossover",
+        "path": [
+          "Automotive",
+          "Auto Body Styles",
+          "Crossover"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-9",
+        "name": "Diesel"
+      },
+      "to": {
+        "id": "1",
+        "name": "Automotive",
+        "path": [
+          "Automotive"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-10",
+        "name": "Electric Vehicle"
+      },
+      "to": {
+        "id": "22",
+        "name": "Green Vehicles",
+        "path": [
+          "Automotive",
+          "Auto Type",
+          "Green Vehicles"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-11",
+        "name": "Hatchback"
+      },
+      "to": {
+        "id": "11",
+        "name": "Hatchback",
+        "path": [
+          "Automotive",
+          "Auto Body Styles",
+          "Hatchback"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-12",
+        "name": "Hybrid"
+      },
+      "to": {
+        "id": "22",
+        "name": "Green Vehicles",
+        "path": [
+          "Automotive",
+          "Auto Type",
+          "Green Vehicles"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-13",
+        "name": "Luxury"
+      },
+      "to": {
+        "id": "23",
+        "name": "Luxury Cars",
+        "path": [
+          "Automotive",
+          "Auto Type",
+          "Luxury Cars"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-14",
+        "name": "MiniVan"
+      },
+      "to": {
+        "id": "13",
+        "name": "Minivan",
+        "path": [
+          "Automotive",
+          "Auto Body Styles",
+          "Minivan"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-15",
+        "name": "Mororcycles"
+      },
+      "to": {
+        "id": "27",
+        "name": "Motorcycles",
+        "path": [
+          "Automotive",
+          "Motorcycles"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-16",
+        "name": "Off-Road Vehicles"
+      },
+      "to": {
+        "id": "14",
+        "name": "Off-Road Vehicles",
+        "path": [
+          "Automotive",
+          "Auto Body Styles",
+          "Off-Road Vehicles"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-17",
+        "name": "Performance Vehicles"
+      },
+      "to": {
+        "id": "24",
+        "name": "Performance Cars",
+        "path": [
+          "Automotive",
+          "Auto Type",
+          "Performance Cars"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-18",
+        "name": "Pickup"
+      },
+      "to": {
+        "id": "15",
+        "name": "Pickup Trucks",
+        "path": [
+          "Automotive",
+          "Auto Body Styles",
+          "Pickup Trucks"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-19",
+        "name": "Road-Side Assistance"
+      },
+      "to": {
+        "id": "28",
+        "name": "Road-Side Assistance",
+        "path": [
+          "Automotive",
+          "Road-Side Assistance"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-20",
+        "name": "Sedan"
+      },
+      "to": {
+        "id": "4",
+        "name": "Sedan",
+        "path": [
+          "Automotive",
+          "Auto Body Styles",
+          "Sedan"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-21",
+        "name": "Trucks & Accessories"
+      },
+      "to": {
+        "id": "3",
+        "name": "Commercial Trucks",
+        "path": [
+          "Automotive",
+          "Auto Body Styles",
+          "Commercial Trucks"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-22",
+        "name": "Vintage Cars"
+      },
+      "to": {
+        "id": "19",
+        "name": "Classic Cars",
+        "path": [
+          "Automotive",
+          "Auto Type",
+          "Classic Cars"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB2-23",
+        "name": "Wagon"
+      },
+      "to": {
+        "id": "5",
+        "name": "Station Wagon",
+        "path": [
+          "Automotive",
+          "Auto Body Styles",
+          "Station Wagon"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3",
+        "name": "Business"
+      },
+      "to": {
+        "id": "52",
+        "name": "Business and Finance",
+        "path": [
+          "Business and Finance"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-1",
+        "name": "Advertising"
+      },
+      "to": {
+        "id": "91",
+        "name": "Advertising Industry",
+        "path": [
+          "Business and Finance",
+          "Industries",
+          "Advertising Industry"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-2",
+        "name": "Agriculture"
+      },
+      "to": {
+        "id": "102",
+        "name": "Agriculture",
+        "path": [
+          "Business and Finance",
+          "Industries",
+          "Agriculture"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-3",
+        "name": "Biotech/Biomedical"
+      },
+      "to": {
+        "id": "119",
+        "name": "Biotech and Biomedical Industry",
+        "path": [
+          "Business and Finance",
+          "Industries",
+          "Biotech and Biomedical Industry"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-4",
+        "name": "Business Software"
+      },
+      "to": {
+        "id": "72",
+        "name": "Business I.T.",
+        "path": [
+          "Business and Finance",
+          "Business",
+          "Business I.T."
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-5",
+        "name": "Construction"
+      },
+      "to": {
+        "id": "121",
+        "name": "Construction Industry",
+        "path": [
+          "Business and Finance",
+          "Industries",
+          "Construction Industry"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-6",
+        "name": "Forestry"
+      },
+      "to": {
+        "id": "102",
+        "name": "Agriculture",
+        "path": [
+          "Business and Finance",
+          "Industries",
+          "Agriculture"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-7",
+        "name": "Government"
+      },
+      "to": {
+        "id": "77",
+        "name": "Government Business",
+        "path": [
+          "Business and Finance",
+          "Business",
+          "Government Business"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-8",
+        "name": "Green Solutions"
+      },
+      "to": {
+        "id": "78",
+        "name": "Green Solutions",
+        "path": [
+          "Business and Finance",
+          "Business",
+          "Green Solutions"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-9",
+        "name": "Human Resources"
+      },
+      "to": {
+        "id": "55",
+        "name": "Human Resources",
+        "path": [
+          "Business and Finance",
+          "Business",
+          "Human Resources"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-10",
+        "name": "Logistics"
+      },
+      "to": {
+        "id": "57",
+        "name": "Logistics",
+        "path": [
+          "Business and Finance",
+          "Business",
+          "Logistics"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-11",
+        "name": "Marketing"
+      },
+      "to": {
+        "id": "58",
+        "name": "Marketing and Advertising",
+        "path": [
+          "Business and Finance",
+          "Business",
+          "Marketing and Advertising"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB3-12",
+        "name": "Metals"
+      },
+      "to": {
+        "id": "107",
+        "name": "Metals Industry",
+        "path": [
+          "Business and Finance",
+          "Industries",
+          "Metals Industry"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4",
+        "name": "Careers"
+      },
+      "to": {
+        "id": "123",
+        "name": "Careers",
+        "path": [
+          "Careers"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4-1",
+        "name": "Career Planning"
+      },
+      "to": {
+        "id": "126",
+        "name": "Career Planning",
+        "path": [
+          "Careers",
+          "Career Planning"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4-2",
+        "name": "College"
+      },
+      "to": {
+        "id": "137",
+        "name": "College Education",
+        "path": [
+          "Education",
+          "College Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4-3",
+        "name": "Financial Aid"
+      },
+      "to": {
+        "id": "395",
+        "name": "Student Financial Aid",
+        "path": [
+          "Personal Finance",
+          "Financial Assistance",
+          "Student Financial Aid"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4-4",
+        "name": "Job Fairs"
+      },
+      "to": {
+        "id": "128",
+        "name": "Job Fairs",
+        "path": [
+          "Careers",
+          "Job Search",
+          "Job Fairs"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4-5",
+        "name": "Job Search"
+      },
+      "to": {
+        "id": "127",
+        "name": "Job Search",
+        "path": [
+          "Careers",
+          "Job Search"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4-6",
+        "name": "Resume Writing/Advice"
+      },
+      "to": {
+        "id": "129",
+        "name": "Resume Writing and Advice",
+        "path": [
+          "Careers",
+          "Job Search",
+          "Resume Writing and Advice"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4-7",
+        "name": "Nursing"
+      },
+      "to": {
+        "id": "123",
+        "name": "Careers",
+        "path": [
+          "Careers"
+        ]
+      },
+      "note": "Mapped to Parent"
+    },
+    {
+      "from": {
+        "id": "IAB4-8",
+        "name": "Scholarships"
+      },
+      "to": {
+        "id": "395",
+        "name": "Student Financial Aid",
+        "path": [
+          "Personal Finance",
+          "Financial Assistance",
+          "Student Financial Aid"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4-9",
+        "name": "Telecommuting"
+      },
+      "to": {
+        "id": "130",
+        "name": "Remote Working",
+        "path": [
+          "Careers",
+          "Remote Working"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4-10",
+        "name": "U.S. Military"
+      },
+      "to": {
+        "id": "122",
+        "name": "Defense Industry",
+        "path": [
+          "Business and Finance",
+          "Industries",
+          "Defense Industry"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB4-11",
+        "name": "Career Advice"
+      },
+      "to": {
+        "id": "125",
+        "name": "Career Advice",
+        "path": [
+          "Careers",
+          "Career Advice"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5",
+        "name": "Education"
+      },
+      "to": {
+        "id": "132",
+        "name": "Education",
+        "path": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-1",
+        "name": "41832 Education"
+      },
+      "to": {
+        "id": "132",
+        "name": "Education",
+        "path": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-2",
+        "name": "Adult Education"
+      },
+      "to": {
+        "id": "133",
+        "name": "Adult Education",
+        "path": [
+          "Education",
+          "Adult Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-3",
+        "name": "Art History"
+      },
+      "to": {
+        "id": "132",
+        "name": "Education",
+        "path": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-4",
+        "name": "Colledge Administration"
+      },
+      "to": {
+        "id": "137",
+        "name": "College Education",
+        "path": [
+          "Education",
+          "College Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-5",
+        "name": "College Life"
+      },
+      "to": {
+        "id": "137",
+        "name": "College Education",
+        "path": [
+          "Education",
+          "College Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-6",
+        "name": "Distance Learning"
+      },
+      "to": {
+        "id": "148",
+        "name": "Online Education",
+        "path": [
+          "Education",
+          "Online Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-7",
+        "name": "English as a 2nd Language"
+      },
+      "to": {
+        "id": "147",
+        "name": "Language Learning",
+        "path": [
+          "Education",
+          "Language Learning"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-8",
+        "name": "Language Learning"
+      },
+      "to": {
+        "id": "147",
+        "name": "Language Learning",
+        "path": [
+          "Education",
+          "Language Learning"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-9",
+        "name": "Graduate School"
+      },
+      "to": {
+        "id": "139",
+        "name": "Postgraduate Education",
+        "path": [
+          "Education",
+          "College Education",
+          "Postgraduate Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-10",
+        "name": "Homeschooling"
+      },
+      "to": {
+        "id": "145",
+        "name": "Homeschooling",
+        "path": [
+          "Education",
+          "Homeschooling"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-11",
+        "name": "Homework/Study Tips"
+      },
+      "to": {
+        "id": "146",
+        "name": "Homework and Study",
+        "path": [
+          "Education",
+          "Homework and Study"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-12",
+        "name": "K-6 Educators"
+      },
+      "to": {
+        "id": "149",
+        "name": "Primary Education",
+        "path": [
+          "Education",
+          "Primary Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-13",
+        "name": "Private School"
+      },
+      "to": {
+        "id": "134",
+        "name": "Private School",
+        "path": [
+          "Education",
+          "Private School"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-14",
+        "name": "Special Education"
+      },
+      "to": {
+        "id": "136",
+        "name": "Special Education",
+        "path": [
+          "Education",
+          "Special Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB5-15",
+        "name": "Studying Business"
+      },
+      "to": {
+        "id": "137",
+        "name": "College Education",
+        "path": [
+          "Education",
+          "College Education"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB6",
+        "name": "Family & Parenting"
+      },
+      "to": {
+        "id": "186",
+        "name": "Family and Relationships",
+        "path": [
+          "Family and Relationships"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB6-1",
+        "name": "Adoption"
+      },
+      "to": {
+        "id": "193",
+        "name": "Adoption and Fostering",
+        "path": [
+          "Family and Relationships",
+          "Parenting",
+          "Adoption and Fostering"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB6-2",
+        "name": "Babies & Toddlers"
+      },
+      "to": {
+        "id": "196",
+        "name": "Parenting Babies and Toddlers",
+        "path": [
+          "Family and Relationships",
+          "Parenting",
+          "Parenting Babies and Toddlers"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB6-3",
+        "name": "Daycare/Pre School"
+      },
+      "to": {
+        "id": "194",
+        "name": "Daycare and Pre-School",
+        "path": [
+          "Family and Relationships",
+          "Parenting",
+          "Daycare and Pre-School"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB6-4",
+        "name": "Family Internet"
+      },
+      "to": {
+        "id": "195",
+        "name": "Internet Safety",
+        "path": [
+          "Family and Relationships",
+          "Parenting",
+          "Internet Safety"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB6-5",
+        "name": "Parenting - K-6 Kids"
+      },
+      "to": {
+        "id": "197",
+        "name": "Parenting Children Aged 4-11",
+        "path": [
+          "Family and Relationships",
+          "Parenting",
+          "Parenting Children Aged 4-11"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB6-6",
+        "name": "Parenting teens"
+      },
+      "to": {
+        "id": "198",
+        "name": "Parenting Teens",
+        "path": [
+          "Family and Relationships",
+          "Parenting",
+          "Parenting Teens"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB6-7",
+        "name": "Pregnancy"
+      },
+      "to": {
+        "id": "305",
+        "name": "Pregnancy",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Reproductive Health",
+          "Pregnancy"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB6-8",
+        "name": "Special Needs Kids"
+      },
+      "to": {
+        "id": "199",
+        "name": "Special Needs Kids",
+        "path": [
+          "Family and Relationships",
+          "Parenting",
+          "Special Needs Kids"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB6-9",
+        "name": "Eldercare"
+      },
+      "to": {
+        "id": "190",
+        "name": "Eldercare",
+        "path": [
+          "Family and Relationships",
+          "Eldercare"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "AB7",
+        "name": "Health & Fitness"
+      },
+      "to": {
+        "id": "223",
+        "name": "Healthy Living",
+        "path": [
+          "Healthy Living"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-1",
+        "name": "Exercise"
+      },
+      "to": {
+        "id": "225",
+        "name": "Fitness and Exercise",
+        "path": [
+          "Healthy Living",
+          "Fitness and Exercise"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-2",
+        "name": "A.D.D."
+      },
+      "to": {
+        "id": "313",
+        "name": "Brain and Nervous System Disorders",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Brain and Nervous System Disorders"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-3",
+        "name": "AIDS/HIV"
+      },
+      "to": {
+        "id": "297",
+        "name": "Infectious Diseases",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Infectious Diseases"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-4",
+        "name": "Allergies"
+      },
+      "to": {
+        "id": "288",
+        "name": "Allergies",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Allergies"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-5",
+        "name": "Alternative Medicine"
+      },
+      "to": {
+        "id": "233",
+        "name": "Alternative Medicine",
+        "path": [
+          "Healthy Living",
+          "Wellness",
+          "Alternative Medicine"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-6",
+        "name": "Arthritis"
+      },
+      "to": {
+        "id": "312",
+        "name": "Bone and Joint Conditions",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Bone and Joint Conditions"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-7",
+        "name": "Asthma"
+      },
+      "to": {
+        "id": "300",
+        "name": "Lung and Respiratory Health",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Lung and Respiratory Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-8",
+        "name": "Autism/PDD"
+      },
+      "to": {
+        "id": "313",
+        "name": "Brain and Nervous System Disorders",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Brain and Nervous System Disorders"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-9",
+        "name": "Bipolar Disorder"
+      },
+      "to": {
+        "id": "301",
+        "name": "Mental Health",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Mental Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-10",
+        "name": "Brain Tumor"
+      },
+      "to": {
+        "id": "313",
+        "name": "Brain and Nervous System Disorders",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Brain and Nervous System Disorders"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-11",
+        "name": "Cancer"
+      },
+      "to": {
+        "id": "314",
+        "name": "Cancer",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Cancer"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-12",
+        "name": "Cholesterol"
+      },
+      "to": {
+        "id": "296",
+        "name": "Heart and Cardiovascular Diseases",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Heart and Cardiovascular Diseases"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-13",
+        "name": "Chronic Fatigue Syndrome"
+      },
+      "to": {
+        "id": "287",
+        "name": "Diseases and Conditions",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-14",
+        "name": "Chronic Pain"
+      },
+      "to": {
+        "id": "287",
+        "name": "Diseases and Conditions",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-15",
+        "name": "Cold & Flu"
+      },
+      "to": {
+        "id": "315",
+        "name": "Cold and Flu",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Cold and Flu"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-16",
+        "name": "Deafness"
+      },
+      "to": {
+        "id": "289",
+        "name": "Ear, Nose and Throat Conditions",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Ear, Nose and Throat Conditions"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-17",
+        "name": "Dental Care"
+      },
+      "to": {
+        "id": "316",
+        "name": "Dental Health",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Dental Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-18",
+        "name": "Depression"
+      },
+      "to": {
+        "id": "301",
+        "name": "Mental Health",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Mental Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-19",
+        "name": "Dermatology"
+      },
+      "to": {
+        "id": "309",
+        "name": "Skin and Dermatology",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Skin and Dermatology"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-20",
+        "name": "Diabetes"
+      },
+      "to": {
+        "id": "317",
+        "name": "Diabetes",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Diabetes"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-21",
+        "name": "Epilepsy"
+      },
+      "to": {
+        "id": "313",
+        "name": "Brain and Nervous System Disorders",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Brain and Nervous System Disorders"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-22",
+        "name": "GERD/Acid Reflux"
+      },
+      "to": {
+        "id": "318",
+        "name": "Digestive Disorders",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Digestive Disorders"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-23",
+        "name": "Headaches/Migraines"
+      },
+      "to": {
+        "id": "313",
+        "name": "Brain and Nervous System Disorders",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Brain and Nervous System Disorders"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-24",
+        "name": "Heart Disease"
+      },
+      "to": {
+        "id": "296",
+        "name": "Heart and Cardiovascular Diseases",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Heart and Cardiovascular Diseases"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-25",
+        "name": "Herbs for Health"
+      },
+      "to": {
+        "id": "234",
+        "name": "Herbs and Supplements",
+        "path": [
+          "Healthy Living",
+          "Wellness",
+          "Alternative Medicine",
+          "Herbs and Supplements"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-26",
+        "name": "Holistic Healing"
+      },
+      "to": {
+        "id": "235",
+        "name": "Holistic Health",
+        "path": [
+          "Healthy Living",
+          "Wellness",
+          "Alternative Medicine",
+          "Holistic Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-27",
+        "name": "IBS/Crohn's Disease"
+      },
+      "to": {
+        "id": "318",
+        "name": "Digestive Disorders",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Digestive Disorders"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-28",
+        "name": "Incest/Abuse Support"
+      },
+      "to": {
+        "id": "301",
+        "name": "Mental Health",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Mental Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-29",
+        "name": "Incontinence"
+      },
+      "to": {
+        "id": "287",
+        "name": "Diseases and Conditions",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-30",
+        "name": "Infertility"
+      },
+      "to": {
+        "id": "304",
+        "name": "Infertility",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Reproductive Health",
+          "Infertility"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-31",
+        "name": "Men's Health"
+      },
+      "to": {
+        "id": "228",
+        "name": "Men's Health",
+        "path": [
+          "Healthy Living",
+          "Men's Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-32",
+        "name": "Nutrition"
+      },
+      "to": {
+        "id": "229",
+        "name": "Nutrition",
+        "path": [
+          "Healthy Living",
+          "Nutrition"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-33",
+        "name": "Orthopedics"
+      },
+      "to": {
+        "id": "312",
+        "name": "Bone and Joint Conditions",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Bone and Joint Conditions"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-34",
+        "name": "Panic/Anxiety Disorders"
+      },
+      "to": {
+        "id": "301",
+        "name": "Mental Health",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Mental Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-35",
+        "name": "Pediatrics"
+      },
+      "to": {
+        "id": "224",
+        "name": "Children's Health",
+        "path": [
+          "Healthy Living",
+          "Children's Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-36",
+        "name": "Physical Therapy"
+      },
+      "to": {
+        "id": "236",
+        "name": "Physical Therapy",
+        "path": [
+          "Healthy Living",
+          "Wellness",
+          "Physical Therapy"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-37",
+        "name": "Psychology/Psychiatry"
+      },
+      "to": {
+        "id": "301",
+        "name": "Mental Health",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Mental Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-38",
+        "name": "Senor Health"
+      },
+      "to": {
+        "id": "230",
+        "name": "Senior Health",
+        "path": [
+          "Healthy Living",
+          "Senior Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-39",
+        "name": "Sexuality"
+      },
+      "to": {
+        "id": "307",
+        "name": "Sexual Health",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Sexual Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-40",
+        "name": "Sleep Disorders"
+      },
+      "to": {
+        "id": "310",
+        "name": "Sleep Disorders",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Sleep Disorders"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-41",
+        "name": "Smoking Cessation"
+      },
+      "to": {
+        "id": "237",
+        "name": "Smoking Cessation",
+        "path": [
+          "Healthy Living",
+          "Wellness",
+          "Smoking Cessation"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-42",
+        "name": "Substance Abuse"
+      },
+      "to": {
+        "id": "311",
+        "name": "Substance Abuse",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Substance Abuse"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-43",
+        "name": "Thyroid Disease"
+      },
+      "to": {
+        "id": "293",
+        "name": "Thyroid Disorders",
+        "path": [
+          "Medical Health",
+          "Diseases and Conditions",
+          "Endocrine and Metabolic Diseases",
+          "Thyroid Disorders"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-44",
+        "name": "Weight Loss"
+      },
+      "to": {
+        "id": "231",
+        "name": "Weight Loss",
+        "path": [
+          "Healthy Living",
+          "Weight Loss"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB7-45",
+        "name": "Women's Health"
+      },
+      "to": {
+        "id": "238",
+        "name": "Women's Health",
+        "path": [
+          "Healthy Living",
+          "Women's Health"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8",
+        "name": "Food & Drink"
+      },
+      "to": {
+        "id": "210",
+        "name": "Food & Drink",
+        "path": [
+          "Food & Drink"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-1",
+        "name": "American Cuisine"
+      },
+      "to": {
+        "id": "214",
+        "name": "World Cuisines",
+        "path": [
+          "Food & Drink",
+          "World Cuisines"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-2",
+        "name": "Barbecues & Grilling"
+      },
+      "to": {
+        "id": "215",
+        "name": "Barbecues and Grilling",
+        "path": [
+          "Food & Drink",
+          "Barbecues and Grilling"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-3",
+        "name": "Cajun/Creole"
+      },
+      "to": {
+        "id": "214",
+        "name": "World Cuisines",
+        "path": [
+          "Food & Drink",
+          "World Cuisines"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-4",
+        "name": "Chinese Cuisine"
+      },
+      "to": {
+        "id": "214",
+        "name": "World Cuisines",
+        "path": [
+          "Food & Drink",
+          "World Cuisines"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-5",
+        "name": "Cocktails/Beer"
+      },
+      "to": {
+        "id": "211",
+        "name": "Alcoholic Beverages",
+        "path": [
+          "Food & Drink",
+          "Alcoholic Beverages"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-6",
+        "name": "Coffee/Tea"
+      },
+      "to": {
+        "id": "222",
+        "name": "Non-Alcoholic Beverages",
+        "path": [
+          "Food & Drink",
+          "Non-Alcoholic Beverages"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-7",
+        "name": "Cuisine-Specific"
+      },
+      "to": {
+        "id": "214",
+        "name": "World Cuisines",
+        "path": [
+          "Food & Drink",
+          "World Cuisines"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-8",
+        "name": "Desserts & Baking"
+      },
+      "to": {
+        "id": "217",
+        "name": "Desserts and Baking",
+        "path": [
+          "Food & Drink",
+          "Desserts and Baking"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-9",
+        "name": "Dining Out"
+      },
+      "to": {
+        "id": "218",
+        "name": "Dining Out",
+        "path": [
+          "Food & Drink",
+          "Dining Out"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-10",
+        "name": "Food Allergies"
+      },
+      "to": {
+        "id": "219",
+        "name": "Food Allergies",
+        "path": [
+          "Food & Drink",
+          "Food Allergies"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-11",
+        "name": "French Cuisine"
+      },
+      "to": {
+        "id": "214",
+        "name": "World Cuisines",
+        "path": [
+          "Food & Drink",
+          "World Cuisines"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-12",
+        "name": "Health/Lowfat Cooking"
+      },
+      "to": {
+        "id": "221",
+        "name": "Healthy Cooking and Eating",
+        "path": [
+          "Food & Drink",
+          "Healthy Cooking and Eating"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-13",
+        "name": "Italian Cuisine"
+      },
+      "to": {
+        "id": "214",
+        "name": "World Cuisines",
+        "path": [
+          "Food & Drink",
+          "World Cuisines"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-14",
+        "name": "Japanese Cuisine"
+      },
+      "to": {
+        "id": "214",
+        "name": "World Cuisines",
+        "path": [
+          "Food & Drink",
+          "World Cuisines"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-15",
+        "name": "Mexican Cuisine"
+      },
+      "to": {
+        "id": "214",
+        "name": "World Cuisines",
+        "path": [
+          "Food & Drink",
+          "World Cuisines"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-16",
+        "name": "Vegan"
+      },
+      "to": {
+        "id": "212",
+        "name": "Vegan Diets",
+        "path": [
+          "Food & Drink",
+          "Vegan Diets"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-17",
+        "name": "Vegetarian"
+      },
+      "to": {
+        "id": "213",
+        "name": "Vegetarian Diets",
+        "path": [
+          "Food & Drink",
+          "Vegetarian Diets"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB8-18",
+        "name": "Wine"
+      },
+      "to": {
+        "id": "211",
+        "name": "Alcoholic Beverages",
+        "path": [
+          "Food & Drink",
+          "Alcoholic Beverages"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9",
+        "name": "Hobbies & Interests"
+      },
+      "to": {
+        "id": "239",
+        "name": "Hobbies & Interests",
+        "path": [
+          "Hobbies & Interests"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-1",
+        "name": "Art/Technology"
+      },
+      "to": {
+        "id": "205",
+        "name": "Digital Arts",
+        "path": [
+          "Fine Art",
+          "Digital Arts"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-2",
+        "name": "Arts & Crafts"
+      },
+      "to": {
+        "id": "248",
+        "name": "Arts and Crafts",
+        "path": [
+          "Hobbies & Interests",
+          "Arts and Crafts"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-3",
+        "name": "Beadwork"
+      },
+      "to": {
+        "id": "249",
+        "name": "Beadwork",
+        "path": [
+          "Hobbies & Interests",
+          "Arts and Crafts",
+          "Beadwork"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-4",
+        "name": "Birdwatching"
+      },
+      "to": {
+        "id": "259",
+        "name": "Birdwatching",
+        "path": [
+          "Hobbies & Interests",
+          "Birdwatching"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-5",
+        "name": "Board Games/Puzzles"
+      },
+      "to": {
+        "id": "270",
+        "name": "Board Games and Puzzles",
+        "path": [
+          "Hobbies & Interests",
+          "Games and Puzzles",
+          "Board Games and Puzzles"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-6",
+        "name": "Candle & Soap Making"
+      },
+      "to": {
+        "id": "250",
+        "name": "Candle and Soap Making",
+        "path": [
+          "Hobbies & Interests",
+          "Arts and Crafts",
+          "Candle and Soap Making"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-7",
+        "name": "Card Games"
+      },
+      "to": {
+        "id": "271",
+        "name": "Card Games",
+        "path": [
+          "Hobbies & Interests",
+          "Games and Puzzles",
+          "Card Games"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-8",
+        "name": "Chess"
+      },
+      "to": {
+        "id": "270",
+        "name": "Board Games and Puzzles",
+        "path": [
+          "Hobbies & Interests",
+          "Games and Puzzles",
+          "Board Games and Puzzles"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-9",
+        "name": "Cigars"
+      },
+      "to": {
+        "id": "260",
+        "name": "Cigars",
+        "path": [
+          "Hobbies & Interests",
+          "Cigars"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-10",
+        "name": "Collecting"
+      },
+      "to": {
+        "id": "261",
+        "name": "Collecting",
+        "path": [
+          "Hobbies & Interests",
+          "Collecting"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-11",
+        "name": "Comic Books"
+      },
+      "to": {
+        "id": "262",
+        "name": "Comic Books",
+        "path": [
+          "Hobbies & Interests",
+          "Collecting",
+          "Comic Books"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-12",
+        "name": "Drawing/Sketching"
+      },
+      "to": {
+        "id": "251",
+        "name": "Drawing and Sketching",
+        "path": [
+          "Hobbies & Interests",
+          "Arts and Crafts",
+          "Drawing and Sketching"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-13",
+        "name": "Freelance Writing"
+      },
+      "to": {
+        "id": "266",
+        "name": "Freelance Writing",
+        "path": [
+          "Hobbies & Interests",
+          "Content Production",
+          "Freelance Writing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-14",
+        "name": "Genealogy"
+      },
+      "to": {
+        "id": "273",
+        "name": "Genealogy and Ancestry",
+        "path": [
+          "Hobbies & Interests",
+          "Genealogy and Ancestry"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-15",
+        "name": "Getting Published"
+      },
+      "to": {
+        "id": "266",
+        "name": "Freelance Writing",
+        "path": [
+          "Hobbies & Interests",
+          "Content Production",
+          "Freelance Writing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-16",
+        "name": "Guitar"
+      },
+      "to": {
+        "id": "243",
+        "name": "Musical Instruments",
+        "path": [
+          "Hobbies & Interests",
+          "Musical Instruments"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-17",
+        "name": "Home Recording"
+      },
+      "to": {
+        "id": "265",
+        "name": "Audio Production",
+        "path": [
+          "Hobbies & Interests",
+          "Content Production",
+          "Audio Production"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-18",
+        "name": "Investors & Patents"
+      },
+      "to": {
+        "id": "239",
+        "name": "Hobbies & Interests",
+        "path": [
+          "Hobbies & Interests"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-19",
+        "name": "Jewelry Making"
+      },
+      "to": {
+        "id": "252",
+        "name": "Jewelry Making",
+        "path": [
+          "Hobbies & Interests",
+          "Arts and Crafts",
+          "Jewelry Making"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-20",
+        "name": "Magic & Illusion"
+      },
+      "to": {
+        "id": "241",
+        "name": "Magic and Illusion",
+        "path": [
+          "Hobbies & Interests",
+          "Magic and Illusion"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-21",
+        "name": "Needlework"
+      },
+      "to": {
+        "id": "253",
+        "name": "Needlework",
+        "path": [
+          "Hobbies & Interests",
+          "Arts and Crafts",
+          "Needlework"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-22",
+        "name": "Painting"
+      },
+      "to": {
+        "id": "254",
+        "name": "Painting",
+        "path": [
+          "Hobbies & Interests",
+          "Arts and Crafts",
+          "Painting"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-23",
+        "name": "Photography"
+      },
+      "to": {
+        "id": "255",
+        "name": "Photography",
+        "path": [
+          "Hobbies & Interests",
+          "Arts and Crafts",
+          "Photography"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-24",
+        "name": "Radio"
+      },
+      "to": {
+        "id": "239",
+        "name": "Hobbies & Interests",
+        "path": [
+          "Hobbies & Interests"
+        ]
+      },
+      "note": "No Semantic Equivalency"
+    },
+    {
+      "from": {
+        "id": "IAB9-25",
+        "name": "Roleplaying Games"
+      },
+      "to": {
+        "id": "272",
+        "name": "Roleplaying Games",
+        "path": [
+          "Hobbies & Interests",
+          "Games and Puzzles",
+          "Roleplaying Games"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-26",
+        "name": "Sci-Fi & Fantasy"
+      },
+      "to": {
+        "id": "246",
+        "name": "Sci-fi and Fantasy",
+        "path": [
+          "Hobbies & Interests",
+          "Sci-fi and Fantasy"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-27",
+        "name": "Scrapbooking"
+      },
+      "to": {
+        "id": "256",
+        "name": "Scrapbooking",
+        "path": [
+          "Hobbies & Interests",
+          "Arts and Crafts",
+          "Scrapbooking"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-28",
+        "name": "Screenwriting"
+      },
+      "to": {
+        "id": "267",
+        "name": "Screenwriting",
+        "path": [
+          "Hobbies & Interests",
+          "Content Production",
+          "Screenwriting"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-29",
+        "name": "Stamps & Coins"
+      },
+      "to": {
+        "id": "263",
+        "name": "Stamps and Coins",
+        "path": [
+          "Hobbies & Interests",
+          "Collecting",
+          "Stamps and Coins"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-30",
+        "name": "Video & Computer Games"
+      },
+      "to": {
+        "id": "680",
+        "name": "Video Gaming",
+        "path": [
+          "Video Gaming"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB9-31",
+        "name": "Woodworking"
+      },
+      "to": {
+        "id": "257",
+        "name": "Woodworking",
+        "path": [
+          "Hobbies & Interests",
+          "Arts and Crafts",
+          "Woodworking"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB10",
+        "name": "Home & Garden"
+      },
+      "to": {
+        "id": "274",
+        "name": "Home & Garden",
+        "path": [
+          "Home & Garden"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB10-1",
+        "name": "Appliances"
+      },
+      "to": {
+        "id": "278",
+        "name": "Home Appliances",
+        "path": [
+          "Home & Garden",
+          "Home Appliances"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB10-2",
+        "name": "Entertaining"
+      },
+      "to": {
+        "id": "279",
+        "name": "Home Entertaining",
+        "path": [
+          "Home & Garden",
+          "Home Entertaining"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB10-3",
+        "name": "Environmental Safety"
+      },
+      "to": {
+        "id": "274",
+        "name": "Home & Garden",
+        "path": [
+          "Home & Garden"
+        ]
+      },
+      "note": "One to Many"
+    },
+    {
+      "from": {
+        "id": "IAB10-4",
+        "name": "Gardening"
+      },
+      "to": {
+        "id": "275",
+        "name": "Gardening",
+        "path": [
+          "Home & Garden",
+          "Gardening"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB10-5",
+        "name": "Home Repair"
+      },
+      "to": {
+        "id": "280",
+        "name": "Home Improvement",
+        "path": [
+          "Home & Garden",
+          "Home Improvement"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB10-6",
+        "name": "Home Theater"
+      },
+      "to": {
+        "id": "634",
+        "name": "Home Entertainment Systems",
+        "path": [
+          "Technology & Computing",
+          "Consumer Electronics",
+          "Home Entertainment Systems"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB10-7",
+        "name": "Interior Decorating"
+      },
+      "to": {
+        "id": "283",
+        "name": "Interior Decorating",
+        "path": [
+          "Home & Garden",
+          "Interior Decorating"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB10-8",
+        "name": "Landscaping"
+      },
+      "to": {
+        "id": "284",
+        "name": "Landscaping",
+        "path": [
+          "Home & Garden",
+          "Landscaping"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB10-9",
+        "name": "Remodeling & Construction"
+      },
+      "to": {
+        "id": "276",
+        "name": "Remodeling & Construction",
+        "path": [
+          "Home & Garden",
+          "Remodeling & Construction"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB11",
+        "name": "Law, Gov't & Politics"
+      },
+      "to": {
+        "id": "379",
+        "name": "News and Politics",
+        "path": [
+          "News and Politics"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB11-1",
+        "name": "Immigration"
+      },
+      "to": {
+        "id": "379",
+        "name": "News and Politics",
+        "path": [
+          "News and Politics"
+        ]
+      },
+      "note": "Mapped to Parent"
+    },
+    {
+      "from": {
+        "id": "IAB11-2",
+        "name": "Legal Issues"
+      },
+      "to": {
+        "id": "383",
+        "name": "Law",
+        "path": [
+          "News and Politics",
+          "Law"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB11-3",
+        "name": "U.S. Government Resources"
+      },
+      "to": {
+        "id": "1455",
+        "name": "The United States of America",
+        "path": [
+          "Content Source Geo",
+          "Country",
+          "The United States of America"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB11-4",
+        "name": "Politics"
+      },
+      "to": {
+        "id": "386",
+        "name": "Politics",
+        "path": [
+          "News and Politics",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB11-5",
+        "name": "Commentary"
+      },
+      "to": {
+        "id": "379",
+        "name": "News and Politics",
+        "path": [
+          "News and Politics"
+        ]
+      },
+      "note": "Mapped to Parent"
+    },
+    {
+      "from": {
+        "id": "IAB12",
+        "name": "News"
+      },
+      "to": {
+        "id": "379",
+        "name": "News and Politics",
+        "path": [
+          "News and Politics"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB12-1",
+        "name": "International News"
+      },
+      "to": {
+        "id": "382",
+        "name": "International News",
+        "path": [
+          "News and Politics",
+          "International News"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB12-2",
+        "name": "National News"
+      },
+      "to": {
+        "id": "385",
+        "name": "National News",
+        "path": [
+          "News and Politics",
+          "National News"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB12-3",
+        "name": "Local News"
+      },
+      "to": {
+        "id": "384",
+        "name": "Local News",
+        "path": [
+          "News and Politics",
+          "Local News"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13",
+        "name": "Personal Finance"
+      },
+      "to": {
+        "id": "391",
+        "name": "Personal Finance",
+        "path": [
+          "Personal Finance"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-1",
+        "name": "Beginning Investing"
+      },
+      "to": {
+        "id": "410",
+        "name": "Personal Investing",
+        "path": [
+          "Personal Finance",
+          "Personal Investing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-2",
+        "name": "Credit/Debt & Loans"
+      },
+      "to": {
+        "id": "405",
+        "name": "Personal Debt",
+        "path": [
+          "Personal Finance",
+          "Personal Debt"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-3",
+        "name": "Financial News"
+      },
+      "to": {
+        "id": "391",
+        "name": "Personal Finance",
+        "path": [
+          "Personal Finance"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-4",
+        "name": "Financial Planning"
+      },
+      "to": {
+        "id": "396",
+        "name": "Financial Planning",
+        "path": [
+          "Personal Finance",
+          "Financial Planning"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-5",
+        "name": "Hedge Fund"
+      },
+      "to": {
+        "id": "411",
+        "name": "Hedge Funds",
+        "path": [
+          "Personal Finance",
+          "Personal Investing",
+          "Hedge Funds"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-6",
+        "name": "Insurance"
+      },
+      "to": {
+        "id": "398",
+        "name": "Insurance",
+        "path": [
+          "Personal Finance",
+          "Insurance"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-7",
+        "name": "Investing"
+      },
+      "to": {
+        "id": "410",
+        "name": "Personal Investing",
+        "path": [
+          "Personal Finance",
+          "Personal Investing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-8",
+        "name": "Mutual Funds"
+      },
+      "to": {
+        "id": "412",
+        "name": "Mutual Funds",
+        "path": [
+          "Personal Finance",
+          "Personal Investing",
+          "Mutual Funds"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-9",
+        "name": "Options"
+      },
+      "to": {
+        "id": "413",
+        "name": "Options",
+        "path": [
+          "Personal Finance",
+          "Personal Investing",
+          "Options"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-10",
+        "name": "Retirement Planning"
+      },
+      "to": {
+        "id": "416",
+        "name": "Retirement Planning",
+        "path": [
+          "Personal Finance",
+          "Retirement Planning"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-11",
+        "name": "Stocks"
+      },
+      "to": {
+        "id": "414",
+        "name": "Stocks and Bonds",
+        "path": [
+          "Personal Finance",
+          "Personal Investing",
+          "Stocks and Bonds"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB13-12",
+        "name": "Tax Planning"
+      },
+      "to": {
+        "id": "415",
+        "name": "Personal Taxes",
+        "path": [
+          "Personal Finance",
+          "Personal Taxes"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB14",
+        "name": "Society"
+      },
+      "to": {
+        "id": "186",
+        "name": "Family and Relationships",
+        "path": [
+          "Family and Relationships"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB14-1",
+        "name": "Dating"
+      },
+      "to": {
+        "id": "188",
+        "name": "Dating",
+        "path": [
+          "Family and Relationships",
+          "Dating"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB14-2",
+        "name": "Divorce Support"
+      },
+      "to": {
+        "id": "189",
+        "name": "Divorce",
+        "path": [
+          "Family and Relationships",
+          "Divorce"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB14-3",
+        "name": "Gay Life"
+      },
+      "to": {
+        "id": "186",
+        "name": "Family and Relationships",
+        "path": [
+          "Family and Relationships"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB14-4",
+        "name": "Marriage"
+      },
+      "to": {
+        "id": "191",
+        "name": "Marriage and Civil Unions",
+        "path": [
+          "Family and Relationships",
+          "Marriage and Civil Unions"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB14-5",
+        "name": "Senior Living"
+      },
+      "to": {
+        "id": "190",
+        "name": "Eldercare",
+        "path": [
+          "Family and Relationships",
+          "Eldercare"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB14-6",
+        "name": "Teens"
+      },
+      "to": {
+        "id": "198",
+        "name": "Parenting Teens",
+        "path": [
+          "Family and Relationships",
+          "Parenting",
+          "Parenting Teens"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB14-7",
+        "name": "Weddings"
+      },
+      "to": {
+        "id": "165",
+        "name": "Wedding",
+        "path": [
+          "Events and Attractions",
+          "Personal Celebrations & Life Events",
+          "Wedding"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB14-8",
+        "name": "Ethnic Specific"
+      },
+      "to": {
+        "name": "Family and Relationships",
+        "path": [
+          "Family and Relationships"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15",
+        "name": "Science"
+      },
+      "to": {
+        "id": "464",
+        "name": "Science",
+        "path": [
+          "Science"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15-1",
+        "name": "Astrology"
+      },
+      "to": {
+        "id": "456",
+        "name": "Astrology",
+        "path": [
+          "Religion & Spirituality",
+          "Astrology"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15-2",
+        "name": "Biology"
+      },
+      "to": {
+        "id": "465",
+        "name": "Biological Sciences",
+        "path": [
+          "Science",
+          "Biological Sciences"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15-3",
+        "name": "Chemistry"
+      },
+      "to": {
+        "id": "466",
+        "name": "Chemistry",
+        "path": [
+          "Science",
+          "Chemistry"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15-4",
+        "name": "Geology"
+      },
+      "to": {
+        "id": "470",
+        "name": "Geology",
+        "path": [
+          "Science",
+          "Geology"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15-5",
+        "name": "Paranormal Phenomena"
+      },
+      "to": {
+        "id": "244",
+        "name": "Paranormal Phenomena",
+        "path": [
+          "Hobbies & Interests",
+          "Paranormal Phenomena"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15-6",
+        "name": "Physics"
+      },
+      "to": {
+        "id": "471",
+        "name": "Physics",
+        "path": [
+          "Science",
+          "Physics"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15-7",
+        "name": "Space/Astronomy"
+      },
+      "to": {
+        "id": "472",
+        "name": "Space and Astronomy",
+        "path": [
+          "Science",
+          "Space and Astronomy"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15-8",
+        "name": "Geography"
+      },
+      "to": {
+        "id": "469",
+        "name": "Geography",
+        "path": [
+          "Science",
+          "Geography"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15-9",
+        "name": "Botany"
+      },
+      "to": {
+        "id": "465",
+        "name": "Biological Sciences",
+        "path": [
+          "Science",
+          "Biological Sciences"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB15-10",
+        "name": "Weather"
+      },
+      "to": {
+        "id": "390",
+        "name": "Weather",
+        "path": [
+          "News and Politics",
+          "Weather"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB16",
+        "name": "Pets"
+      },
+      "to": {
+        "id": "422",
+        "name": "Pets",
+        "path": [
+          "Pets"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB16-1",
+        "name": "Aquariums"
+      },
+      "to": {
+        "id": "426",
+        "name": "Fish and Aquariums",
+        "path": [
+          "Pets",
+          "Fish and Aquariums"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB16-2",
+        "name": "Birds"
+      },
+      "to": {
+        "id": "423",
+        "name": "Birds",
+        "path": [
+          "Pets",
+          "Birds"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB16-3",
+        "name": "Cats"
+      },
+      "to": {
+        "id": "424",
+        "name": "Cats",
+        "path": [
+          "Pets",
+          "Cats"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB16-4",
+        "name": "Dogs"
+      },
+      "to": {
+        "id": "425",
+        "name": "Dogs",
+        "path": [
+          "Pets",
+          "Dogs"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB16-5",
+        "name": "Large Animals"
+      },
+      "to": {
+        "id": "427",
+        "name": "Large Animals",
+        "path": [
+          "Pets",
+          "Large Animals"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB16-6",
+        "name": "Reptiles"
+      },
+      "to": {
+        "id": "429",
+        "name": "Reptiles",
+        "path": [
+          "Pets",
+          "Reptiles"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB16-7",
+        "name": "Veterinary Medicine"
+      },
+      "to": {
+        "id": "430",
+        "name": "Veterinary Medicine",
+        "path": [
+          "Pets",
+          "Veterinary Medicine"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17",
+        "name": "Sports"
+      },
+      "to": {
+        "id": "483",
+        "name": "Sports",
+        "path": [
+          "Sports"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-1",
+        "name": "Auto Racing"
+      },
+      "to": {
+        "id": "518",
+        "name": "Auto Racing",
+        "path": [
+          "Sports",
+          "Auto Racing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-2",
+        "name": "Baseball"
+      },
+      "to": {
+        "id": "545",
+        "name": "Baseball",
+        "path": [
+          "Sports",
+          "Baseball"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-3",
+        "name": "Bicycling"
+      },
+      "to": {
+        "id": "492",
+        "name": "Cycling",
+        "path": [
+          "Sports",
+          "Cycling"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-4",
+        "name": "Bodybuilding"
+      },
+      "to": {
+        "id": "549",
+        "name": "Bodybuilding",
+        "path": [
+          "Sports",
+          "Bodybuilding"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-5",
+        "name": "Boxing"
+      },
+      "to": {
+        "id": "485",
+        "name": "Boxing",
+        "path": [
+          "Sports",
+          "Boxing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-6",
+        "name": "Canoeing/Kayaking"
+      },
+      "to": {
+        "id": "499",
+        "name": "Canoeing and Kayaking",
+        "path": [
+          "Sports",
+          "Extreme Sports",
+          "Canoeing and Kayaking"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-7",
+        "name": "Cheerleading"
+      },
+      "to": {
+        "id": "486",
+        "name": "Cheerleading",
+        "path": [
+          "Sports",
+          "Cheerleading"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-8",
+        "name": "Climbing"
+      },
+      "to": {
+        "id": "500",
+        "name": "Climbing",
+        "path": [
+          "Sports",
+          "Extreme Sports",
+          "Climbing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-9",
+        "name": "Cricket"
+      },
+      "to": {
+        "id": "491",
+        "name": "Cricket",
+        "path": [
+          "Sports",
+          "Cricket"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-10",
+        "name": "Figure Skating"
+      },
+      "to": {
+        "id": "510",
+        "name": "Figure Skating",
+        "path": [
+          "Sports",
+          "Figure Skating"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-11",
+        "name": "Fly Fishing"
+      },
+      "to": {
+        "id": "511",
+        "name": "Fishing Sports",
+        "path": [
+          "Sports",
+          "Fishing Sports"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-12",
+        "name": "Football"
+      },
+      "to": {
+        "id": "484",
+        "name": "American Football",
+        "path": [
+          "Sports",
+          "American Football"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-13",
+        "name": "Freshwater Fishing"
+      },
+      "to": {
+        "id": "511",
+        "name": "Fishing Sports",
+        "path": [
+          "Sports",
+          "Fishing Sports"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-14",
+        "name": "Game & Fish"
+      },
+      "to": {
+        "id": "511",
+        "name": "Fishing Sports",
+        "path": [
+          "Sports",
+          "Fishing Sports"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-15",
+        "name": "Golf"
+      },
+      "to": {
+        "id": "512",
+        "name": "Golf",
+        "path": [
+          "Sports",
+          "Golf"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-16",
+        "name": "Horse Racing"
+      },
+      "to": {
+        "id": "497",
+        "name": "Horse Racing",
+        "path": [
+          "Sports",
+          "Equine Sports",
+          "Horse Racing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-17",
+        "name": "Horses"
+      },
+      "to": {
+        "id": "496",
+        "name": "Equine Sports",
+        "path": [
+          "Sports",
+          "Equine Sports"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-18",
+        "name": "Hunting/Shooting"
+      },
+      "to": {
+        "id": "514",
+        "name": "Hunting and Shooting",
+        "path": [
+          "Sports",
+          "Hunting and Shooting"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-19",
+        "name": "Inline Skating"
+      },
+      "to": {
+        "id": "516",
+        "name": "Inline Skating",
+        "path": [
+          "Sports",
+          "Inline Skating"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-20",
+        "name": "Martial Arts"
+      },
+      "to": {
+        "id": "520",
+        "name": "Martial Arts",
+        "path": [
+          "Sports",
+          "Martial Arts"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-21",
+        "name": "Mountain Biking"
+      },
+      "to": {
+        "id": "492",
+        "name": "Cycling",
+        "path": [
+          "Sports",
+          "Cycling"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-22",
+        "name": "NASCAR Racing"
+      },
+      "to": {
+        "id": "518",
+        "name": "Auto Racing",
+        "path": [
+          "Sports",
+          "Auto Racing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-23",
+        "name": "Olympics"
+      },
+      "to": {
+        "id": "521",
+        "name": "Olympic Sports",
+        "path": [
+          "Sports",
+          "Olympic Sports"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-24",
+        "name": "Paintball"
+      },
+      "to": {
+        "id": "501",
+        "name": "Paintball",
+        "path": [
+          "Sports",
+          "Extreme Sports",
+          "Paintball"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-25",
+        "name": "Power & Motorcycles"
+      },
+      "to": {
+        "id": "519",
+        "name": "Motorcycle Sports",
+        "path": [
+          "Sports",
+          "Auto Racing",
+          "Motorcycle Sports"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-26",
+        "name": "Pro Basketball"
+      },
+      "to": {
+        "id": "547",
+        "name": "Basketball",
+        "path": [
+          "Sports",
+          "Basketball"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-27",
+        "name": "Pro Ice Hockey"
+      },
+      "to": {
+        "id": "515",
+        "name": "Ice Hockey",
+        "path": [
+          "Sports",
+          "Ice Hockey"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-28",
+        "name": "Rodeo"
+      },
+      "to": {
+        "id": "525",
+        "name": "Rodeo",
+        "path": [
+          "Sports",
+          "Rodeo"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-29",
+        "name": "Rugby"
+      },
+      "to": {
+        "id": "527",
+        "name": "Rugby",
+        "path": [
+          "Sports",
+          "Rugby"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-30",
+        "name": "Running/Jogging"
+      },
+      "to": {
+        "id": "227",
+        "name": "Running and Jogging",
+        "path": [
+          "Healthy Living",
+          "Fitness and Exercise",
+          "Running and Jogging"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-31",
+        "name": "Sailing"
+      },
+      "to": {
+        "id": "530",
+        "name": "Sailing",
+        "path": [
+          "Sports",
+          "Sailing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-32",
+        "name": "Saltwater Fishing"
+      },
+      "to": {
+        "id": "511",
+        "name": "Fishing Sports",
+        "path": [
+          "Sports",
+          "Fishing Sports"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-33",
+        "name": "Scuba Diving"
+      },
+      "to": {
+        "id": "502",
+        "name": "Scuba Diving",
+        "path": [
+          "Sports",
+          "Extreme Sports",
+          "Scuba Diving"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-34",
+        "name": "Skateboarding"
+      },
+      "to": {
+        "id": "503",
+        "name": "Skateboarding",
+        "path": [
+          "Sports",
+          "Extreme Sports",
+          "Skateboarding"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-35",
+        "name": "Skiing"
+      },
+      "to": {
+        "id": "531",
+        "name": "Skiing",
+        "path": [
+          "Sports",
+          "Skiing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-36",
+        "name": "Snowboarding"
+      },
+      "to": {
+        "id": "504",
+        "name": "Snowboarding",
+        "path": [
+          "Sports",
+          "Extreme Sports",
+          "Snowboarding"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-37",
+        "name": "Surfing/Bodyboarding"
+      },
+      "to": {
+        "id": "505",
+        "name": "Surfing and Bodyboarding",
+        "path": [
+          "Sports",
+          "Extreme Sports",
+          "Surfing and Bodyboarding"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-38",
+        "name": "Swimming"
+      },
+      "to": {
+        "id": "537",
+        "name": "Swimming",
+        "path": [
+          "Sports",
+          "Swimming"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-39",
+        "name": "Table Tennis/Ping-Pong"
+      },
+      "to": {
+        "id": "538",
+        "name": "Table Tennis",
+        "path": [
+          "Sports",
+          "Table Tennis"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-40",
+        "name": "Tennis"
+      },
+      "to": {
+        "id": "539",
+        "name": "Tennis",
+        "path": [
+          "Sports",
+          "Tennis"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-41",
+        "name": "Volleyball"
+      },
+      "to": {
+        "id": "541",
+        "name": "Volleyball",
+        "path": [
+          "Sports",
+          "Volleyball"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-42",
+        "name": "Walking"
+      },
+      "to": {
+        "id": "542",
+        "name": "Walking",
+        "path": [
+          "Sports",
+          "Walking"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-43",
+        "name": "Waterski/Wakeboard"
+      },
+      "to": {
+        "id": "506",
+        "name": "Waterskiing and Wakeboarding",
+        "path": [
+          "Sports",
+          "Extreme Sports",
+          "Waterskiing and Wakeboarding"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB17-44",
+        "name": "World Soccer"
+      },
+      "to": {
+        "id": "533",
+        "name": "Soccer",
+        "path": [
+          "Sports",
+          "Soccer"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB18",
+        "name": "Style & Fashion"
+      },
+      "to": {
+        "id": "552",
+        "name": "Style & Fashion",
+        "path": [
+          "Style & Fashion"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB18-1",
+        "name": "Beauty"
+      },
+      "to": {
+        "id": "553",
+        "name": "Beauty",
+        "path": [
+          "Style & Fashion",
+          "Beauty"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB18-2",
+        "name": "Body Art"
+      },
+      "to": {
+        "id": "574",
+        "name": "Body Art",
+        "path": [
+          "Style & Fashion",
+          "Body Art"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB18-3",
+        "name": "Fashion"
+      },
+      "to": {
+        "id": "552",
+        "name": "Style & Fashion",
+        "path": [
+          "Style & Fashion"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB18-4",
+        "name": "Jewelry"
+      },
+      "to": {
+        "id": "565",
+        "name": "Women's Jewelry and Watches",
+        "path": [
+          "Style & Fashion",
+          "Women's Fashion",
+          "Women's Accessories",
+          "Women's Jewelry and Watches"
+        ]
+      },
+      "note": "No Semantic Equivilency"
+    },
+    {
+      "from": {
+        "id": "IAB18-5",
+        "name": "Clothing"
+      },
+      "to": {
+        "id": "552",
+        "name": "Style & Fashion",
+        "path": [
+          "Style & Fashion"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB18-6",
+        "name": "Accessories"
+      },
+      "to": {
+        "id": "561",
+        "name": "Women's Accessories",
+        "path": [
+          "Style & Fashion",
+          "Women's Fashion",
+          "Women's Accessories"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19",
+        "name": "Technology & Computing"
+      },
+      "to": {
+        "id": "596",
+        "name": "Technology & Computing",
+        "path": [
+          "Technology & Computing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-1",
+        "name": "3-D Graphics"
+      },
+      "to": {
+        "id": "603",
+        "name": "3-D Graphics",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "3-D Graphics"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-2",
+        "name": "Animation"
+      },
+      "to": {
+        "id": "610",
+        "name": "Computer Animation",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Computer Animation"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-3",
+        "name": "Antivirus Software"
+      },
+      "to": {
+        "id": "608",
+        "name": "Antivirus Software",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Antivirus Software"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-4",
+        "name": "C/C++"
+      },
+      "to": {
+        "id": "631",
+        "name": "Programming Languages",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Programming Languages"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-5",
+        "name": "Cameras & Camcorders"
+      },
+      "to": {
+        "id": "633",
+        "name": "Cameras and Camcorders",
+        "path": [
+          "Technology & Computing",
+          "Consumer Electronics",
+          "Cameras and Camcorders"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-6",
+        "name": "Cell Phones"
+      },
+      "to": {
+        "id": "635",
+        "name": "Smartphones",
+        "path": [
+          "Technology & Computing",
+          "Consumer Electronics",
+          "Smartphones"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-7",
+        "name": "Computer Certification"
+      },
+      "to": {
+        "id": "599",
+        "name": "Computing",
+        "path": [
+          "Technology & Computing",
+          "Computing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-8",
+        "name": "Computer Networking"
+      },
+      "to": {
+        "id": "600",
+        "name": "Computer Networking",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Networking"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-9",
+        "name": "Computer Peripherals"
+      },
+      "to": {
+        "id": "601",
+        "name": "Computer Peripherals",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Peripherals"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-10",
+        "name": "Computer Reviews"
+      },
+      "to": {
+        "id": "599",
+        "name": "Computing",
+        "path": [
+          "Technology & Computing",
+          "Computing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-11",
+        "name": "Data Centers"
+      },
+      "to": {
+        "id": "616",
+        "name": "Data Storage and Warehousing",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Data Storage and Warehousing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-12",
+        "name": "Databases"
+      },
+      "to": {
+        "id": "611",
+        "name": "Databases",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Databases"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-13",
+        "name": "Desktop Publishing"
+      },
+      "to": {
+        "id": "612",
+        "name": "Desktop Publishing",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Desktop Publishing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-14",
+        "name": "Desktop Video"
+      },
+      "to": {
+        "id": "606",
+        "name": "Video Software",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Video Software"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-15",
+        "name": "Email"
+      },
+      "to": {
+        "id": "623",
+        "name": "Email",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Internet",
+          "Email"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-16",
+        "name": "Graphics Software"
+      },
+      "to": {
+        "id": "614",
+        "name": "Graphics Software",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Graphics Software"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-17",
+        "name": "Home Video/DVD"
+      },
+      "to": {
+        "id": "634",
+        "name": "Home Entertainment Systems",
+        "path": [
+          "Technology & Computing",
+          "Consumer Electronics",
+          "Home Entertainment Systems"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-18",
+        "name": "Internet Technology"
+      },
+      "to": {
+        "id": "619",
+        "name": "Internet",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Internet"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-19",
+        "name": "Java"
+      },
+      "to": {
+        "id": "631",
+        "name": "Programming Languages",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Programming Languages"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-20",
+        "name": "JavaScript"
+      },
+      "to": {
+        "id": "631",
+        "name": "Programming Languages",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Programming Languages"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-21",
+        "name": "Mac Support"
+      },
+      "to": {
+        "id": "599",
+        "name": "Computing",
+        "path": [
+          "Technology & Computing",
+          "Computing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-22",
+        "name": "MP3/MIDI"
+      },
+      "to": {
+        "id": "613",
+        "name": "Digital Audio",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Digital Audio"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-23",
+        "name": "Net Conferencing"
+      },
+      "to": {
+        "id": "607",
+        "name": "Web Conferencing",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Web Conferencing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-24",
+        "name": "Net for Beginners"
+      },
+      "to": {
+        "id": "624",
+        "name": "Internet for Beginners",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Internet",
+          "Internet for Beginners"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-25",
+        "name": "Network Security"
+      },
+      "to": {
+        "id": "618",
+        "name": "Information and Network Security",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Information and Network Security"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-26",
+        "name": "Palmtops/PDAs"
+      },
+      "to": {
+        "id": "636",
+        "name": "Tablets and E-readers",
+        "path": [
+          "Technology & Computing",
+          "Consumer Electronics",
+          "Tablets and E-readers"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-27",
+        "name": "PC Support"
+      },
+      "to": {
+        "id": "599",
+        "name": "Computing",
+        "path": [
+          "Technology & Computing",
+          "Computing"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-28",
+        "name": "Portable"
+      },
+      "to": {
+        "id": "630",
+        "name": "Laptops",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Laptops"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-29",
+        "name": "Entertainment"
+      },
+      "to": {
+        "id": "634",
+        "name": "Home Entertainment Systems",
+        "path": [
+          "Technology & Computing",
+          "Consumer Electronics",
+          "Home Entertainment Systems"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-30",
+        "name": "Shareware/Freeware"
+      },
+      "to": {
+        "id": "605",
+        "name": "Shareware and Freeware",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Shareware and Freeware"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-31",
+        "name": "Unix"
+      },
+      "to": {
+        "id": "615",
+        "name": "Operating Systems",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Operating Systems"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-32",
+        "name": "Visual Basic"
+      },
+      "to": {
+        "id": "631",
+        "name": "Programming Languages",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Programming Languages"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-33",
+        "name": "Web Clip Art"
+      },
+      "to": {
+        "id": "629",
+        "name": "Web Design and HTML",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Internet",
+          "Web Design and HTML"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-34",
+        "name": "Web Design/HTML"
+      },
+      "to": {
+        "id": "629",
+        "name": "Web Design and HTML",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Internet",
+          "Web Design and HTML"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-35",
+        "name": "Web Search"
+      },
+      "to": {
+        "id": "627",
+        "name": "Search",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Internet",
+          "Search"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB19-36",
+        "name": "Windows"
+      },
+      "to": {
+        "id": "615",
+        "name": "Operating Systems",
+        "path": [
+          "Technology & Computing",
+          "Computing",
+          "Computer Software and Applications",
+          "Operating Systems"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20",
+        "name": "Travel"
+      },
+      "to": {
+        "id": "653",
+        "name": "Travel",
+        "path": [
+          "Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-1",
+        "name": "Adventure Travel"
+      },
+      "to": {
+        "id": "665",
+        "name": "Adventure Travel",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Adventure Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-2",
+        "name": "Africa"
+      },
+      "to": {
+        "id": "656",
+        "name": "Africa Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "Africa Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-3",
+        "name": "Air Travel"
+      },
+      "to": {
+        "id": "672",
+        "name": "Air Travel",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Air Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-4",
+        "name": "Australia & New Zealand"
+      },
+      "to": {
+        "id": "658",
+        "name": "Australia and Oceania Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "Australia and Oceania Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-5",
+        "name": "Bed & Breakfasts"
+      },
+      "to": {
+        "id": "674",
+        "name": "Bed & Breakfasts",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Bed & Breakfasts"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-6",
+        "name": "Budget Travel"
+      },
+      "to": {
+        "id": "675",
+        "name": "Budget Travel",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Budget Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-7",
+        "name": "Business Travel"
+      },
+      "to": {
+        "id": "676",
+        "name": "Business Travel",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Business Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-8",
+        "name": "By US Locale"
+      },
+      "to": {
+        "id": "660",
+        "name": "North America Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "North America Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-9",
+        "name": "Camping"
+      },
+      "to": {
+        "id": "677",
+        "name": "Camping",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Camping"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-10",
+        "name": "Canada"
+      },
+      "to": {
+        "id": "660",
+        "name": "North America Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "North America Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-11",
+        "name": "Caribbean"
+      },
+      "to": {
+        "id": "660",
+        "name": "North America Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "North America Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-12",
+        "name": "Cruises"
+      },
+      "to": {
+        "id": "678",
+        "name": "Cruises",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Cruises"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-13",
+        "name": "Eastern Europe"
+      },
+      "to": {
+        "id": "659",
+        "name": "Europe Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "Europe Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-14",
+        "name": "Europe"
+      },
+      "to": {
+        "id": "659",
+        "name": "Europe Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "Europe Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-15",
+        "name": "France"
+      },
+      "to": {
+        "id": "659",
+        "name": "Europe Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "Europe Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-16",
+        "name": "Greece"
+      },
+      "to": {
+        "id": "659",
+        "name": "Europe Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "Europe Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-17",
+        "name": "Honeymoons/Getaways"
+      },
+      "to": {
+        "id": "667",
+        "name": "Honeymoons and Getaways",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Honeymoons and Getaways"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-18",
+        "name": "Hotels"
+      },
+      "to": {
+        "id": "668",
+        "name": "Hotels and Motels",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Hotels and Motels"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-19",
+        "name": "Italy"
+      },
+      "to": {
+        "id": "659",
+        "name": "Europe Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "Europe Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-20",
+        "name": "Japan"
+      },
+      "to": {
+        "id": "657",
+        "name": "Asia Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "Asia Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-21",
+        "name": "Mexico & Central America"
+      },
+      "to": {
+        "id": "660",
+        "name": "North America Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "North America Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-22",
+        "name": "National Parks"
+      },
+      "to": {
+        "id": "660",
+        "name": "North America Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "North America Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-23",
+        "name": "South America"
+      },
+      "to": {
+        "id": "662",
+        "name": "South America Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "South America Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-24",
+        "name": "Spas"
+      },
+      "to": {
+        "id": "671",
+        "name": "Spas",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Spas"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-25",
+        "name": "Theme Parks"
+      },
+      "to": {
+        "id": "151",
+        "name": "Amusement and Theme Parks",
+        "path": [
+          "Events and Attractions",
+          "Amusement and Theme Parks"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-26",
+        "name": "Traveling with Kids"
+      },
+      "to": {
+        "id": "666",
+        "name": "Family Travel",
+        "path": [
+          "Travel",
+          "Travel Type",
+          "Family Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB20-27",
+        "name": "United Kingdom"
+      },
+      "to": {
+        "id": "659",
+        "name": "Europe Travel",
+        "path": [
+          "Travel",
+          "Travel Locations",
+          "Europe Travel"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB21",
+        "name": "Real Estate"
+      },
+      "to": {
+        "id": "441",
+        "name": "Real Estate",
+        "path": [
+          "Real Estate"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB21-1",
+        "name": "Apartments"
+      },
+      "to": {
+        "id": "442",
+        "name": "Apartments",
+        "path": [
+          "Real Estate",
+          "Apartments"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB21-2",
+        "name": "Architects"
+      },
+      "to": {
+        "id": "441",
+        "name": "Real Estate",
+        "path": [
+          "Real Estate"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB21-3",
+        "name": "Buying/Selling Homes"
+      },
+      "to": {
+        "id": "451",
+        "name": "Real Estate Buying and Selling",
+        "path": [
+          "Real Estate",
+          "Real Estate Buying and Selling"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB22",
+        "name": "Shopping"
+      },
+      "to": {
+        "id": "473",
+        "name": "Shopping",
+        "path": [
+          "Shopping"
+        ]
+      },
+      "note": "One to Many"
+    },
+    {
+      "from": {
+        "id": "IAB22-1",
+        "name": "Contests & Freebies"
+      },
+      "to": {
+        "id": "474",
+        "name": "Coupons and Discounts",
+        "path": [
+          "Shopping",
+          "Coupons and Discounts"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB22-2",
+        "name": "Couponing"
+      },
+      "to": {
+        "id": "474",
+        "name": "Coupons and Discounts",
+        "path": [
+          "Shopping",
+          "Coupons and Discounts"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB22-3",
+        "name": "Comparison"
+      },
+      "to": {
+        "id": "473",
+        "name": "Shopping",
+        "path": [
+          "Shopping"
+        ]
+      },
+      "note": "One to Many"
+    },
+    {
+      "from": {
+        "id": "IAB22-4",
+        "name": "Engines"
+      },
+      "to": {
+        "id": "473",
+        "name": "Shopping",
+        "path": [
+          "Shopping"
+        ]
+      },
+      "note": "One to Many"
+    },
+    {
+      "from": {
+        "id": "IAB23",
+        "name": "Religion & Spirituality"
+      },
+      "to": {
+        "id": "453",
+        "name": "Religion & Spirituality",
+        "path": [
+          "Religion & Spirituality"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB23-1",
+        "name": "Alternative Religions"
+      },
+      "to": {
+        "id": "453",
+        "name": "Religion & Spirituality",
+        "path": [
+          "Religion & Spirituality"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB23-2",
+        "name": "Atheism/Agnosticism"
+      },
+      "to": {
+        "id": "457",
+        "name": "Atheism",
+        "path": [
+          "Religion & Spirituality",
+          "Atheism"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB23-3",
+        "name": "Buddhism"
+      },
+      "to": {
+        "id": "458",
+        "name": "Buddhism",
+        "path": [
+          "Religion & Spirituality",
+          "Buddhism"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB23-4",
+        "name": "Catholicism"
+      },
+      "to": {
+        "id": "459",
+        "name": "Christianity",
+        "path": [
+          "Religion & Spirituality",
+          "Christianity"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB23-5",
+        "name": "Christianity"
+      },
+      "to": {
+        "id": "459",
+        "name": "Christianity",
+        "path": [
+          "Religion & Spirituality",
+          "Christianity"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB23-6",
+        "name": "Hinduism"
+      },
+      "to": {
+        "id": "460",
+        "name": "Hinduism",
+        "path": [
+          "Religion & Spirituality",
+          "Hinduism"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB23-7",
+        "name": "Islam"
+      },
+      "to": {
+        "id": "461",
+        "name": "Islam",
+        "path": [
+          "Religion & Spirituality",
+          "Islam"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB23-8",
+        "name": "Judaism"
+      },
+      "to": {
+        "id": "462",
+        "name": "Judaism",
+        "path": [
+          "Religion & Spirituality",
+          "Judaism"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB23-9",
+        "name": "Latter-Day Saints"
+      },
+      "to": {
+        "id": "459",
+        "name": "Christianity",
+        "path": [
+          "Religion & Spirituality",
+          "Christianity"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB23-10",
+        "name": "Pagan/Wiccan"
+      },
+      "to": {
+        "id": "453",
+        "name": "Religion & Spirituality",
+        "path": [
+          "Religion & Spirituality"
+        ]
+      }
+    },
+    {
+      "from": {
+        "id": "IAB24",
+        "name": "Uncategorized"
+      }
+    },
+    {
+      "from": {
+        "id": "IAB25",
+        "name": "Non-Standard Content"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB25-1",
+        "name": "Unmoderated UGC"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB25-2",
+        "name": "Extreme Graphic/Explicit Violence"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB25-3",
+        "name": "Pornography"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB25-4",
+        "name": "Profane Content"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB25-5",
+        "name": "Hate Content"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB25-6",
+        "name": "Under Construction"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB25-7",
+        "name": "Incentivized"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB26",
+        "name": "Illegal Content"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB26-1",
+        "name": "Illegal Content"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB26-2",
+        "name": "Warez"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB26-3",
+        "name": "Spyware/Malware"
+      },
+      "note": "Uncategorized"
+    },
+    {
+      "from": {
+        "id": "IAB26-4",
+        "name": "Copyright Infringement"
+      },
+      "note": "Uncategorized"
+    }
+  ]
+}

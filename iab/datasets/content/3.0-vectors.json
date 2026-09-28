@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "id": "iab.content.3.0-vectors",
+    "kind": "taxonomy",
+    "name": "Content Taxonomy Descriptive Vectors",
+    "version": "3.0",
+    "publisher": "IAB Tech Lab",
+    "page": "https://iabtechlab.com/standards/content-taxonomy/",
+    "source": "https://github.com/InteractiveAdvertisingBureau/Taxonomies/blob/main/Content%20Taxonomies/Content%20Taxonomy%203.0%20Descriptive%20Vectors.tsv",
+    "released": "2022-06"
+  },
+  "nodes": [
+    {
+      "id": "1000",
+      "name": "Content Environment",
+      "children": [
+        {
+          "id": "1002",
+          "name": "Email"
+        },
+        {
+          "id": "1003",
+          "name": "Forum/Community"
+        },
+        {
+          "id": "1005",
+          "name": "Marketplace/eCommerce"
+        },
+        {
+          "id": "1006",
+          "name": "Search Engine/Listings"
+        },
+        {
+          "id": "1007",
+          "name": "Social"
+        },
+        {
+          "id": "1008",
+          "name": "Utility/Online Tool"
+        },
+        {
+          "id": "1009",
+          "name": "Voice Activated Channels"
+        },
+        {
+          "id": "092QD4",
+          "name": "General"
+        }
+      ]
+    },
+    {
+      "id": "1010",
+      "name": "Content Purpose",
+      "children": [
+        {
+          "id": "1012",
+          "name": "Conversational"
+        },
+        {
+          "id": "1014",
+          "name": "Entertainment Content"
+        },
+        {
+          "id": "5S2VRK",
+          "name": "Informational",
+          "children": [
+            {
+              "id": "1011",
+              "name": "Academic/Research Content"
+            },
+            {
+              "id": "1013",
+              "name": "Educational Content"
+            },
+            {
+              "id": "1017",
+              "name": "Instructional Content"
+            },
+            {
+              "id": "1020",
+              "name": "News"
+            },
+            {
+              "id": "BEZLLC",
+              "name": "Opinion & Op-Ed"
+            },
+            {
+              "id": "1021",
+              "name": "Review"
+            }
+          ]
+        },
+        {
+          "id": "1019",
+          "name": "Commerce"
+        }
+      ]
+    },
+    {
+      "id": "1215",
+      "name": "Content Source",
+      "children": [
+        {
+          "id": "1216",
+          "name": "Professionally Produced"
+        },
+        {
+          "id": "1217",
+          "name": "User Generated"
+        },
+        {
+          "id": "1218",
+          "name": "Aggregated/Curated"
+        }
+      ]
+    },
+    {
+      "id": "1022",
+      "name": "Content Form Factor",
+      "children": [
+        {
+          "id": "1023",
+          "name": "Audio",
+          "children": [
+            {
+              "id": "REJJOG",
+              "name": "Podcast"
+            },
+            {
+              "id": "7OCXIZ",
+              "name": "Radio"
+            },
+            {
+              "id": "MJDJZY",
+              "name": "Event"
+            }
+          ]
+        },
+        {
+          "id": "1024",
+          "name": "Images/Galleries"
+        },
+        {
+          "id": "1026",
+          "name": "Mixed"
+        },
+        {
+          "id": "1027",
+          "name": "Textual"
+        },
+        {
+          "id": "1028",
+          "name": "Video",
+          "children": [
+            {
+              "id": "C2UKBG",
+              "name": "Show",
+              "children": [
+                {
+                  "id": "3927X6",
+                  "name": "Episodic Show"
+                }
+              ]
+            },
+            {
+              "id": "Y2MK22",
+              "name": "Event"
+            },
+            {
+              "id": "O3EQZQ",
+              "name": "Clip"
+            },
+            {
+              "id": "20L2OV",
+              "name": "Movie"
+            }
+          ]
+        },
+        {
+          "id": "1004",
+          "name": "Game"
+        },
+        {
+          "id": "1029",
+          "name": "VR/AR"
+        }
+      ]
+    },
+    {
+      "id": "MRkz4Q",
+      "name": "Brand Suitability and Risk",
+      "children": [
+        {
+          "id": "bsr001",
+          "name": "Floor"
+        },
+        {
+          "id": "bsr002",
+          "name": "High Risk"
+        },
+        {
+          "id": "bsr003",
+          "name": "Medium Risk"
+        },
+        {
+          "id": "bsr004",
+          "name": "Low Risk"
+        }
+      ]
+    },
+    {
+      "id": "1030",
+      "name": "*Content Language Extension"
+    },
+    {
+      "id": "1219",
+      "name": "*Content Source Geo Extension"
+    }
+  ]
+}
