@@ -11,17 +11,17 @@ func TestLookup(t *testing.T) {
 	if root == nil || root.R0Code() != "adl" || root.IABAdProduct20() != "1001" || root.Parent() != 0 {
 		t.Fatalf("root %+v", root)
 	}
-	if root.Children()[0] != 33 {
-		t.Fatalf("children %v", root.Children())
+	if root.IABContent31() != "Rm3SiT" || root.Children()[0] != 33 {
+		t.Fatalf("root c31=%q children %v", root.IABContent31(), root.Children())
 	}
-	child := dict.ByR0Code("adl.a")
-	if child == nil || child.ID() != 33 || child.Parent() != 1 || child.IABContent31() != "Rm3SiT" {
-		t.Fatalf("adl.a id=%d parent=%d c31=%q", child.ID(), child.Parent(), child.IABContent31())
+	porn := dict.ByR0Code("adl.p")
+	if porn == nil || porn.ID() != 33 || porn.Parent() != 1 || porn.IABContent10() != "IAB25-3" {
+		t.Fatalf("adl.p id=%d parent=%d c10=%q", porn.ID(), porn.Parent(), porn.IABContent10())
 	}
-	if dict.ByCattax(9, "Rm3SiT") != child {
+	if dict.ByCattax(9, "Rm3SiT") != root {
 		t.Fatal("cattax 9")
 	}
-	if dict.ByCattax(7, "Rm3SiT").ID() != 33 || child.IABContent30() != "Rm3SiT" {
+	if dict.ByCattax(7, "Rm3SiT") != root || root.IABContent30() != "Rm3SiT" {
 		t.Fatal("content 3.0")
 	}
 	books := dict.ByCattax(1, "IAB1-1")
@@ -32,7 +32,7 @@ func TestLookup(t *testing.T) {
 	if arts.IABContent10() != "IAB1" || arts.IABContent20() != "1014" {
 		t.Fatalf("arts c10=%q c20=%q", arts.IABContent10(), arts.IABContent20())
 	}
-	clothing := dict.ByID(712)
+	clothing := dict.ByID(715)
 	if clothing.IABContent10() != "IAB18-5" || clothing.IABContent21() != "566" || clothing.IABContent22() != "566" {
 		t.Fatalf("clothing c21=%q c22=%q", clothing.IABContent21(), clothing.IABContent22())
 	}
@@ -52,11 +52,11 @@ func TestLookup(t *testing.T) {
 	if dict.ByKeyword("hosted file synchronization").ID() != 497 || dict.ByKeyword("hosted file synchronizations").ID() != 497 {
 		t.Fatal("keyword prefix")
 	}
-	if dict.ByKeyword("skin care").ID() != 1282 || dict.ByKeyword("no such phrase") != nil {
+	if dict.ByKeyword("skin care").ID() != 1281 || dict.ByKeyword("no such phrase") != nil {
 		t.Fatal("keyword collision or miss")
 	}
 	allocs := testing.AllocsPerRun(100, func() {
-		n := dict.ByR0Code("adl.a")
+		n := dict.ByR0Code("adl.p")
 		_ = n.ID()
 		_ = n.IABContent31()
 		_ = dict.ByCattax(8, "1001").IABAdProduct20()

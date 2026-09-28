@@ -22,7 +22,7 @@ func TestLookup(t *testing.T) {
 	if lightdict.ByCattax(1, "IAB1-1").ID() != 40 {
 		t.Fatal("cattax 1")
 	}
-	if lightdict.ByKeyword("CLOUD STORAGE").ID() != 497 || lightdict.ByKeyword("skin care").ID() != 1282 {
+	if lightdict.ByKeyword("CLOUD STORAGE").ID() != 497 || lightdict.ByKeyword("skin care").ID() != 1281 {
 		t.Fatal("keyword")
 	}
 	allocs := testing.AllocsPerRun(100, func() {
