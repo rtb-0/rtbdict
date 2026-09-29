@@ -234,9 +234,7 @@ func writeIAB(b *bytes.Buffer, items []rawIAB, withName bool) {
 		fmt.Fprintf(b, "{Cattax: %d, ID: %s}", item.Cattax, strconv.Quote(item.ID))
 	}
 	b.WriteString("}")
-	if !withName {
-		writeIABIDs(b, items)
-	}
+	writeIABIDs(b, items)
 }
 
 func writeIABIDs(b *bytes.Buffer, items []rawIAB) {

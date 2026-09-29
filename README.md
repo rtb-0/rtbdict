@@ -19,6 +19,7 @@ n := content.ByR0Code("adl.prn")       // r0/dict/content
 n.ID()                                 // 35
 n.Name()                               // Pornography
 n.IAB()                                // cattax, id, and name
+n.IDs(1)                               // ["IAB25-3"]
 
 content.ByID(35)
 content.ByCattax(1, "IAB25-3")         // Pornography
@@ -29,7 +30,7 @@ light.IAB()                            // cattax and id, no name
 light.IDs(1)                           // ["IAB25-3"]
 ```
 
-`ByID`, `ByR0Code`, `ByCattax`, and `ByKeyword` return `nil` when nothing matches. Each Content Taxonomy pair of cattax and id belongs to one category. `IAB` returns that category's codes in dataset order. In `r0/dict/content` each code has cattax, id, and name. In `r0/lightdict/content` each code has cattax and id. `IDs(cattax)` is only on the light node: it returns the ids for that cattax, in the same order, as the stored slice. An unknown cattax returns `nil`. The codes are Content 1.0 (cattax 1), 2.0 (2), 2.1 (5), 2.2 (6), 3.0 (7), and 3.1 (9).
+`ByID`, `ByR0Code`, `ByCattax`, and `ByKeyword` return `nil` when nothing matches. Each Content Taxonomy pair of cattax and id belongs to one category. `IAB` returns that category's codes in dataset order. In `r0/dict/content` each code has cattax, id, and name. In `r0/lightdict/content` each code has cattax and id. `IDs(cattax)` on either node returns the ids for that cattax, in the same order, as the stored slice. An unknown cattax returns `nil`. The codes are Content 1.0 (cattax 1), 2.0 (2), 2.1 (5), 2.2 (6), 3.0 (7), and 3.1 (9).
 
 `Parent` is `0` for a root. `Children`, `Keywords`, `IAB`, and `IDs` return the stored slices.
 

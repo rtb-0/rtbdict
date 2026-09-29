@@ -27,6 +27,12 @@ func TestLookup(t *testing.T) {
 	if content.ByCattax(1, "IAB25-3") != porn {
 		t.Fatal("IAB25-3")
 	}
+	if len(porn.IDs(1)) != 1 || porn.IDs(1)[0] != "IAB25-3" || len(root.IDs(6)) != 1 || root.IDs(6)[0] != "Rm3SiT" {
+		t.Fatalf("ids porn=%v root=%v", porn.IDs(1), root.IDs(6))
+	}
+	if porn.IDs(-1) != nil || porn.IDs(10) != nil {
+		t.Fatal("unknown cattax")
+	}
 	books := content.ByCattax(1, "IAB1-1")
 	if books == nil || books.R0Code() != "art.bl" || books.ID() != 40 || books.Description() == "" {
 		t.Fatalf("IAB1-1 %+v", books)
@@ -50,6 +56,7 @@ func TestLookup(t *testing.T) {
 		n := content.ByR0Code("adl.prn")
 		_ = n.ID()
 		_ = n.IAB()
+		_ = n.IDs(1)
 		_ = content.ByCattax(9, "Rm3SiT").R0Code()
 		_ = root.Children()
 		_ = content.ByKeyword("PORN VIDEO").R0Code()

@@ -11,6 +11,7 @@ type IAB struct {
 }
 
 // Node is one r0 content category.
+// ids holds the Content Taxonomy ids for cattax 0 through 9.
 type Node struct {
 	id          int
 	r0Code      string
@@ -19,6 +20,7 @@ type Node struct {
 	keywords    []string
 	position    int
 	iab         []IAB
+	ids         [10][]string
 	parent      int
 	children    []int
 }
@@ -78,6 +80,15 @@ func (n *Node) IAB() []IAB {
 		return nil
 	}
 	return n.iab
+}
+
+// IDs returns the Content Taxonomy ids for cattax, in dataset order.
+// The result is the stored slice. An unknown cattax returns nil.
+func (n *Node) IDs(cattax int) []string {
+	if n == nil || cattax < 0 || cattax >= len(n.ids) {
+		return nil
+	}
+	return n.ids[cattax]
 }
 
 // Parent returns the parent r0 id, or 0 for a root.
