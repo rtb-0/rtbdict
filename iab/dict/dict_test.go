@@ -3,7 +3,7 @@ package dict_test
 import (
 	"testing"
 
-	"github.com/rtb-0/rtbdict/iab/dict/ad-product"
+	"github.com/rtb-0/rtbdict/iab/dict/adproduct"
 	"github.com/rtb-0/rtbdict/iab/dict/content"
 	"github.com/rtb-0/rtbdict/iab/dict/mappings"
 )

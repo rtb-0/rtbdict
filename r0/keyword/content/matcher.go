@@ -1,9 +1,9 @@
-// Package keyword matches text against r0 category names and keywords.
+// Package content matches text against r0 content category names and keywords.
 // The trie is generated. Nodes and edges are integers, so the garbage collector does not scan them.
 //
 // Matching walks from each word start. Earlier words of a phrase must match exactly, then whitespace.
 // The last word may be a prefix of the input word. The longest phrase wins.
-package keyword
+package content
 
 const foldMax = 256
 

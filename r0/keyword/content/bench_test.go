@@ -1,4 +1,4 @@
-package keyword
+package content
 
 import "testing"
 
@@ -6,25 +6,25 @@ var sink int
 
 func BenchmarkMatchName(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		sink = Match("Cloud Storage")
+		sink = Match("Pornography")
 	}
 }
 
 func BenchmarkMatchUpper(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		sink = Match("CLOUD STORAGE")
+		sink = Match("PORN VIDEO")
 	}
 }
 
 func BenchmarkMatchLongest(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		sink = Match("sports memorabilia and trading cards")
+		sink = Match("adult industry news")
 	}
 }
 
 func BenchmarkMatchSentence(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		sink = Match("watch sports and sports memorabilia and trading cards")
+		sink = Match("watch adult industry news today")
 	}
 }
 

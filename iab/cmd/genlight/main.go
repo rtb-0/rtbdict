@@ -92,7 +92,7 @@ func main() {
 }
 
 var packageName = map[string]string{
-	"ad-product": "adproduct",
+	"adproduct": "adproduct",
 	"content":    "content",
 	"audience":   "audience",
 	"mappings":   "mappings",

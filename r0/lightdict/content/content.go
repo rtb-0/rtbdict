@@ -1,30 +1,27 @@
-//go:generate go run github.com/rtb-0/rtbdict/r0/cmd/gendict
+// Package content is the r0 content dictionary without descriptions.
+package content
 
-// Package dict is the r0 category dictionary, including descriptions.
-package dict
+import keyword "github.com/rtb-0/rtbdict/r0/keyword/content"
 
-import "github.com/rtb-0/rtbdict/r0/keyword"
+// IAB is one Content Taxonomy code placed on an r0 category.
+// The name is kept only in r0/dict/content.
+type IAB struct {
+	Cattax int
+	ID     string
+}
 
-// Node is one r0 category. Codes for taxonomies other than Content 1.0, Content 3.1,
-// and Ad Product 2.0 are filled from the official IAB mappings of this node's own codes.
+// Node is one r0 content category. It has the same codes as dict/content.Node and no description.
+// ids holds those codes' ids for cattax 0 through 9.
 type Node struct {
-	id          int
-	r0Code      string
-	name        string
-	description string
-	keywords    []string
-	position    int
-	content10   string
-	content20   string
-	content21   string
-	content22   string
-	content30   string
-	content31   string
-	adProduct10 string
-	adProduct11 string
-	adProduct20 string
-	parent      int
-	children    []int
+	id       int
+	r0Code   string
+	name     string
+	keywords []string
+	position int
+	iab      []IAB
+	ids      [10][]string
+	parent   int
+	children []int
 }
 
 // ID returns the r0 numeric id. Ids are assigned level by level, starting at 1.
@@ -51,14 +48,6 @@ func (n *Node) Name() string {
 	return n.name
 }
 
-// Description returns the category description.
-func (n *Node) Description() string {
-	if n == nil {
-		return ""
-	}
-	return n.description
-}
-
 // Keywords returns the category keywords. The result is the stored slice.
 func (n *Node) Keywords() []string {
 	if n == nil {
@@ -75,76 +64,22 @@ func (n *Node) Position() int {
 	return n.position
 }
 
-// IABContent10 returns the Content Taxonomy 1.0 code, cattax 1.
-func (n *Node) IABContent10() string {
+// IAB returns the Content Taxonomy codes placed on this category.
+// The result is the stored slice, in dataset order.
+func (n *Node) IAB() []IAB {
 	if n == nil {
-		return ""
+		return nil
 	}
-	return n.content10
+	return n.iab
 }
 
-// IABContent20 returns the Content Taxonomy 2.0 code, cattax 2.
-func (n *Node) IABContent20() string {
-	if n == nil {
-		return ""
+// IDs returns the Content Taxonomy ids for cattax, in dataset order.
+// The result is the stored slice. An unknown cattax returns nil.
+func (n *Node) IDs(cattax int) []string {
+	if n == nil || cattax < 0 || cattax >= len(n.ids) {
+		return nil
 	}
-	return n.content20
-}
-
-// IABContent21 returns the Content Taxonomy 2.1 code, cattax 5.
-func (n *Node) IABContent21() string {
-	if n == nil {
-		return ""
-	}
-	return n.content21
-}
-
-// IABContent22 returns the Content Taxonomy 2.2 code, cattax 6.
-func (n *Node) IABContent22() string {
-	if n == nil {
-		return ""
-	}
-	return n.content22
-}
-
-// IABContent30 returns the Content Taxonomy 3.0 code, cattax 7.
-func (n *Node) IABContent30() string {
-	if n == nil {
-		return ""
-	}
-	return n.content30
-}
-
-// IABContent31 returns the Content Taxonomy 3.1 code, cattax 9.
-func (n *Node) IABContent31() string {
-	if n == nil {
-		return ""
-	}
-	return n.content31
-}
-
-// IABAdProduct10 returns the Ad Product Taxonomy 1.0 code, cattax 3.
-func (n *Node) IABAdProduct10() string {
-	if n == nil {
-		return ""
-	}
-	return n.adProduct10
-}
-
-// IABAdProduct11 returns the Ad Product Taxonomy 1.1 code. Version 1.1 has no cattax.
-func (n *Node) IABAdProduct11() string {
-	if n == nil {
-		return ""
-	}
-	return n.adProduct11
-}
-
-// IABAdProduct20 returns the Ad Product Taxonomy 2.0 code, cattax 8.
-func (n *Node) IABAdProduct20() string {
-	if n == nil {
-		return ""
-	}
-	return n.adProduct20
+	return n.ids[cattax]
 }
 
 // Parent returns the parent r0 id, or 0 for a root.
@@ -234,9 +169,8 @@ func ByR0Code(code string) *Node {
 	return ByID(id)
 }
 
-// ByCattax returns the category identified by an IAB cattax and category code.
-// A code shared by more than one r0 category returns nil.
-// Ad Product 1.1 has no cattax; use IABAdProduct11 on a category found another way.
+// ByCattax returns the category that carries this Content Taxonomy cattax and id.
+// An unknown pair returns nil.
 func ByCattax(cattax int, code string) *Node {
 	if cattax < 0 || cattax >= len(byCattax) || code == "" || byCattax[cattax] == nil {
 		return nil

@@ -3,7 +3,7 @@ package lightdict_test
 import (
 	"testing"
 
-	"github.com/rtb-0/rtbdict/iab/lightdict/ad-product"
+	"github.com/rtb-0/rtbdict/iab/lightdict/adproduct"
 	"github.com/rtb-0/rtbdict/iab/lightdict/audience"
 	"github.com/rtb-0/rtbdict/iab/lightdict/content"
 	"github.com/rtb-0/rtbdict/iab/lightdict/mappings"

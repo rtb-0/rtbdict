@@ -1,33 +1,33 @@
-package dict_test
+package content_test
 
 import (
 	"testing"
 
-	"github.com/rtb-0/rtbdict/r0/dict"
+	"github.com/rtb-0/rtbdict/r0/lightdict/content"
 )
 
 var sink string
 
 func BenchmarkByID(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		sink = dict.ByID(33).R0Code()
+		sink = content.ByID(35).R0Code()
 	}
 }
 
 func BenchmarkByCattax(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		sink = dict.ByCattax(9, "Rm3SiT").IABContent31()
+		sink = content.ByCattax(9, "Rm3SiT").R0Code()
 	}
 }
 
 func BenchmarkByKeyword(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		sink = dict.ByKeyword("CLOUD STORAGE").R0Code()
+		sink = content.ByKeyword("PORN VIDEO").R0Code()
 	}
 }
 
 func BenchmarkChildrenNodes(b *testing.B) {
-	root := dict.ByID(1)
+	root := content.ByID(1)
 	for i := 0; i < b.N; i++ {
 		for child := range root.ChildrenNodes {
 			sinkID = child.ID()
@@ -36,7 +36,7 @@ func BenchmarkChildrenNodes(b *testing.B) {
 }
 
 func BenchmarkAllChildren(b *testing.B) {
-	root := dict.ByID(1)
+	root := content.ByID(1)
 	for i := 0; i < b.N; i++ {
 		for id := range root.AllChildren {
 			sinkID = id
@@ -45,7 +45,7 @@ func BenchmarkAllChildren(b *testing.B) {
 }
 
 func BenchmarkAllChildrenNodes(b *testing.B) {
-	root := dict.ByID(1)
+	root := content.ByID(1)
 	for i := 0; i < b.N; i++ {
 		for child := range root.AllChildrenNodes {
 			sinkID = child.ID()

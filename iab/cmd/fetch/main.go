@@ -697,9 +697,9 @@ func writeJSON(path string, v any) error {
 }
 
 var taxonomies = []taxSpec{
-	{file: "ad-product/1.0.json", upstream: "Ad Product Taxonomies/Ad Product Taxonomy 1.0.tsv", id: "iab.ad-product.1.0", name: "Ad Product Taxonomy", version: "1.0", cattax: 3, hasCattax: true, page: pageAd, released: "2022-07", allowDup: "51"},
-	{file: "ad-product/1.1.json", upstream: "Ad Product Taxonomies/Ad Product Taxonomy 1.1.tsv", id: "iab.ad-product.1.1", name: "Ad Product Taxonomy", version: "1.1", page: pageAd, released: "2022-08", allowDup: "51"},
-	{file: "ad-product/2.0.json", upstream: "Ad Product Taxonomies/Ad Product Taxonomy 2.0.tsv", id: "iab.ad-product.2.0", name: "Ad Product Taxonomy", version: "2.0", cattax: 8, hasCattax: true, page: pageAd, released: "2024-11"},
+	{file: "adproduct/1.0.json", upstream: "Ad Product Taxonomies/Ad Product Taxonomy 1.0.tsv", id: "iab.ad-product.1.0", name: "Ad Product Taxonomy", version: "1.0", cattax: 3, hasCattax: true, page: pageAd, released: "2022-07", allowDup: "51"},
+	{file: "adproduct/1.1.json", upstream: "Ad Product Taxonomies/Ad Product Taxonomy 1.1.tsv", id: "iab.ad-product.1.1", name: "Ad Product Taxonomy", version: "1.1", page: pageAd, released: "2022-08", allowDup: "51"},
+	{file: "adproduct/2.0.json", upstream: "Ad Product Taxonomies/Ad Product Taxonomy 2.0.tsv", id: "iab.ad-product.2.0", name: "Ad Product Taxonomy", version: "2.0", cattax: 8, hasCattax: true, page: pageAd, released: "2024-11"},
 	{file: "audience/1.0.json", upstream: "Audience Taxonomies/Audience Taxonomy 1.0.tsv", id: "iab.audience.1.0", name: "Audience Taxonomy", version: "1.0", page: pageAudience, released: "2018-05"},
 	{file: "audience/1.1.json", upstream: "Audience Taxonomies/Audience Taxonomy 1.1.tsv", id: "iab.audience.1.1", name: "Audience Taxonomy", version: "1.1", cattax: 4, hasCattax: true, page: pageAudience, released: "2020-10"},
 	{file: "content/1.0.json", upstream: "Content Taxonomies/Content Taxonomy 1.0.tsv", id: "iab.content.1.0", name: "Content Taxonomy", version: "1.0", cattax: 1, hasCattax: true, deprecated: true, page: pageCont, content10: true},

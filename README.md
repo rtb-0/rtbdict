@@ -6,48 +6,38 @@ Go dictionaries for the r0 category tree and the IAB Tech Lab taxonomies. The mo
 
 ## r0
 
-Source: [`r0/datasets/r0-1.0.json`](r0/datasets/r0-1.0.json). 1471 categories, 32 roots. Numeric ids run level by level from 1.
+Source: [`r0/datasets/content/1.0.json`](r0/datasets/content/1.0.json). 227 categories, 34 roots. Numeric ids run level by level from 1.
 
-| Package        | Import                                  | Contents                                      |
-| -------------- | --------------------------------------- | --------------------------------------------- |
-| `r0/dict`      | `github.com/rtb-0/rtbdict/r0/dict`      | Categories, including descriptions            |
-| `r0/lightdict` | `github.com/rtb-0/rtbdict/r0/lightdict` | Same categories, no descriptions              |
-| `r0/keyword`   | `github.com/rtb-0/rtbdict/r0/keyword`   | Shared phrase index used by both dictionaries |
+| Package                | Import                                          | Contents                                              |
+| ---------------------- | ----------------------------------------------- | ----------------------------------------------------- |
+| `r0/dict/content`      | `github.com/rtb-0/rtbdict/r0/dict/content`      | Categories, including descriptions and IAB names      |
+| `r0/lightdict/content` | `github.com/rtb-0/rtbdict/r0/lightdict/content` | Same categories, no descriptions or IAB names         |
+| `r0/keyword/content`   | `github.com/rtb-0/rtbdict/r0/keyword/content`   | Phrase index used by both dictionaries                |
 
 ```go
-n := dict.ByR0Code("tec.c7")
-n.ID()            // 497
-n.Name()          // Cloud Storage
-n.IABContent10()  // Content Taxonomy 1.0 code, when this node has one
+n := content.ByR0Code("adl.prn")       // r0/dict/content
+n.ID()                                 // 35
+n.Name()                               // Pornography
+n.IAB()                                // cattax, id, and name
 
-dict.ByID(497)
-dict.ByCattax(1, "IAB1-1")          // Books and Literature
-dict.ByKeyword("cloud storage")     // 497, ASCII case is ignored
+content.ByID(35)
+content.ByCattax(1, "IAB25-3")         // Pornography
+content.ByKeyword("porn video")        // 35, ASCII case is ignored
+
+light := lightcontent.ByR0Code("adl.prn") // r0/lightdict/content
+light.IAB()                            // cattax and id, no name
+light.IDs(1)                           // ["IAB25-3"]
 ```
 
-`ByID`, `ByR0Code`, `ByCattax`, and `ByKeyword` return `nil` when nothing matches. `ByCattax` also returns `nil` when the same code belongs to more than one r0 category. Ad Product 1.1 has no cattax; read it with `IABAdProduct11` after finding the category another way.
+`ByID`, `ByR0Code`, `ByCattax`, and `ByKeyword` return `nil` when nothing matches. Each Content Taxonomy pair of cattax and id belongs to one category. `IAB` returns that category's codes in dataset order. In `r0/dict/content` each code has cattax, id, and name. In `r0/lightdict/content` each code has cattax and id. `IDs(cattax)` is only on the light node: it returns the ids for that cattax, in the same order, as the stored slice. An unknown cattax returns `nil`. The codes are Content 1.0 (cattax 1), 2.0 (2), 2.1 (5), 2.2 (6), 3.0 (7), and 3.1 (9).
 
-Direct codes on a node are Content 1.0 (`c1_0_code`, cattax 1), Content 3.1 (`c3_1_code`, cattax 9), and Ad Product 2.0 (`ap2_0_code`, cattax 8). The other IAB codes are derived from that node's own direct codes through the official mappings. One node is not given another node's direct code.
-
-| Cattax | Taxonomy       | Method           |
-| ------ | -------------- | ---------------- |
-| 1      | Content 1.0    | `IABContent10`   |
-| 2      | Content 2.0    | `IABContent20`   |
-| 3      | Ad Product 1.0 | `IABAdProduct10` |
-| 5      | Content 2.1    | `IABContent21`   |
-| 6      | Content 2.2    | `IABContent22`   |
-| 7      | Content 3.0    | `IABContent30`   |
-| 8      | Ad Product 2.0 | `IABAdProduct20` |
-| 9      | Content 3.1    | `IABContent31`   |
-| —      | Ad Product 1.1 | `IABAdProduct11` |
-
-`Parent` is `0` for a root. `Children` and `Keywords` return the stored slices.
+`Parent` is `0` for a root. `Children`, `Keywords`, `IAB`, and `IDs` return the stored slices.
 
 ### Keyword search
 
 `ByKeyword` matches `name` and each `keywords` entry. ASCII letters are folded to lower case, and repeated whitespace collapses to one space. Matching starts at a word boundary. Earlier words of a phrase must match exactly. The last word may be a prefix of the input word (`synchronization` matches `synchronizations`). The longest phrase wins. If two categories share a phrase, the larger id stays in the index.
 
-`keyword.Match` returns the r0 id, or `0`. Input of at most 256 bytes is folded in a stack buffer and does not allocate.
+`Match` in `r0/keyword/content` returns the r0 id, or `0`. Input of at most 256 bytes is folded in a stack buffer and does not allocate.
 
 ## IAB
 
@@ -60,12 +50,12 @@ go run ./iab/cmd/fetch
 | Package              | Import                                                            |
 | -------------------- | ----------------------------------------------------------------- |
 | `iab/dict`           | `github.com/rtb-0/rtbdict/iab/dict`                               |
-| `iab/dict/adproduct` | `github.com/rtb-0/rtbdict/iab/dict/ad-product`                    |
+| `iab/dict/adproduct` | `github.com/rtb-0/rtbdict/iab/dict/adproduct`                     |
 | `iab/dict/content`   | `github.com/rtb-0/rtbdict/iab/dict/content`                       |
 | `iab/dict/audience`  | `github.com/rtb-0/rtbdict/iab/dict/audience`                      |
 | `iab/dict/mappings`  | `github.com/rtb-0/rtbdict/iab/dict/mappings`                      |
 | `iab/lightdict`      | `github.com/rtb-0/rtbdict/iab/lightdict`                          |
-| light families       | `.../iab/lightdict/ad-product`, `content`, `audience`, `mappings` |
+| light families       | `.../iab/lightdict/adproduct`, `content`, `audience`, `mappings`  |
 
 `iab/dict` lookups return `(value, bool)`. `iab/lightdict` lookups return a pointer, or `nil`.
 
@@ -95,7 +85,7 @@ go generate ./iab/lightdict/
 go generate ./r0/dict/
 ```
 
-`r0/cmd/gendict` writes `r0/dict/1.0.go`, `r0/lightdict/1.0.go`, and `r0/keyword/phrases.go`.
+`r0/cmd/gendict` writes `r0/dict/content/1.0.go`, `r0/lightdict/content/1.0.go`, and `r0/keyword/content/phrases.go`.
 
 ## Make
 
