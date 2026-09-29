@@ -4,8 +4,8 @@
     "kind": "taxonomy",
     "name": "Content",
     "version": "1.0",
-    "category_count": 227,
-    "root_count": 34
+    "category_count": 231,
+    "root_count": 35
   },
   "nodes": [
     {
@@ -7795,87 +7795,21 @@
       ],
       "iab": [
         { "cattax": 1, "id": "IAB12", "name": "News" },
-        { "cattax": 1, "id": "IAB12-1", "name": "International News" },
-        { "cattax": 1, "id": "IAB12-2", "name": "National News" },
-        { "cattax": 1, "id": "IAB12-3", "name": "Local News" },
         { "cattax": 2, "id": "1020", "name": "News" },
-        { "cattax": 2, "id": "382", "name": "International News" },
-        { "cattax": 2, "id": "384", "name": "Local News" },
-        { "cattax": 2, "id": "385", "name": "National News" },
         { "cattax": 5, "id": "1020", "name": "News" },
-        { "cattax": 5, "id": "382", "name": "International News" },
-        { "cattax": 5, "id": "384", "name": "Local News" },
-        { "cattax": 5, "id": "385", "name": "National News" },
-        { "cattax": 6, "id": "1020", "name": "News" },
-        { "cattax": 6, "id": "382", "name": "International News" },
-        { "cattax": 6, "id": "384", "name": "Local News" },
-        { "cattax": 6, "id": "385", "name": "National News" }
+        { "cattax": 6, "id": "1020", "name": "News" }
       ],
       "children": [
         {
           "id": 164,
           "r0_code": "new.gn",
           "name": "General News",
-          "description": "Mixed-topic news reporting and feeds without a single dominant subject, irrespective of local, regional or international scope. Focused reporting uses its subject category; geography is recorded separately.",
+          "description": "Mixed-topic news reporting and feeds without a single dominant subject. Use the relevant geographic news category when its scope is known; focused reporting also uses its subject category.",
           "position": 1,
           "keywords": [
             "daily headline",
             "general news roundup",
             "mixed news coverage"
-          ],
-          "iab": [
-            { "cattax": 1, "id": "IAB24", "name": "Uncategorized" },
-            { "cattax": 1, "id": "IAB25", "name": "Non-Standard Content" },
-            { "cattax": 1, "id": "IAB25-1", "name": "Unmoderated UGC" },
-            { "cattax": 1, "id": "IAB25-4", "name": "Profane Content" },
-            { "cattax": 1, "id": "IAB25-6", "name": "Under Construction" },
-            { "cattax": 1, "id": "IAB25-7", "name": "Incentivized" },
-            { "cattax": 1, "id": "IAB26", "name": "Illegal Content" },
-            { "cattax": 1, "id": "IAB26-1", "name": "Illegal Content" },
-            { "cattax": 2, "id": "1000", "name": "Content Channel" },
-            { "cattax": 2, "id": "1004", "name": "Game" },
-            { "cattax": 2, "id": "1010", "name": "Content Type" },
-            { "cattax": 2, "id": "1015", "name": "Feature" },
-            { "cattax": 2, "id": "1018", "name": "Interactive Content" },
-            { "cattax": 2, "id": "1022", "name": "Content Media Format" },
-            { "cattax": 2, "id": "1025", "name": "Interactive" },
-            { "cattax": 2, "id": "1215", "name": "Content Source" },
-            { "cattax": 2, "id": "1216", "name": "Professionally Produced" },
-            { "cattax": 2, "id": "1217", "name": "User Generated" },
-            { "cattax": 2, "id": "1218", "name": "Aggregated/Curated" },
-            { "cattax": 5, "id": "1000", "name": "Content Channel" },
-            { "cattax": 5, "id": "1004", "name": "Game" },
-            { "cattax": 5, "id": "1010", "name": "Content Type" },
-            { "cattax": 5, "id": "1015", "name": "Feature" },
-            { "cattax": 5, "id": "1018", "name": "Interactive Content" },
-            { "cattax": 5, "id": "1022", "name": "Content Media Format" },
-            { "cattax": 5, "id": "1025", "name": "Interactive" },
-            { "cattax": 5, "id": "1215", "name": "Content Source" },
-            { "cattax": 5, "id": "1216", "name": "Professionally Produced" },
-            { "cattax": 5, "id": "1217", "name": "User Generated" },
-            { "cattax": 5, "id": "1218", "name": "Aggregated/Curated" },
-            { "cattax": 6, "id": "1000", "name": "Content Channel" },
-            { "cattax": 6, "id": "1004", "name": "Game" },
-            { "cattax": 6, "id": "1010", "name": "Content Type" },
-            { "cattax": 6, "id": "1015", "name": "Feature" },
-            { "cattax": 6, "id": "1018", "name": "Interactive Content" },
-            { "cattax": 6, "id": "1022", "name": "Content Media Format" },
-            { "cattax": 6, "id": "1025", "name": "Interactive" },
-            { "cattax": 6, "id": "1215", "name": "Content Source" },
-            { "cattax": 6, "id": "1216", "name": "Professionally Produced" },
-            { "cattax": 6, "id": "1217", "name": "User Generated" },
-            { "cattax": 6, "id": "1218", "name": "Aggregated/Curated" },
-            { "cattax": 6, "id": "I4GWl6", "name": "Death, Injury, or Military Conflict" },
-            { "cattax": 6, "id": "XtODT3", "name": "Crime & Harmful acts to individuals and Society and Human Right Violations" },
-            { "cattax": 6, "id": "v9i3On", "name": "Sensitive Topics" },
-            { "cattax": 7, "id": "I4GWl6", "name": "Death, Injury, or Military Conflict" },
-            { "cattax": 7, "id": "SPSHQ5", "name": "Genres" },
-            { "cattax": 7, "id": "XtODT3", "name": "Crime & Harmful Acts to Individuals, Society & Human Right Violations" },
-            { "cattax": 7, "id": "v9i3On", "name": "Sensitive Topics" },
-            { "cattax": 9, "id": "I4GWl6", "name": "Death, Injury, or Military Conflict" },
-            { "cattax": 9, "id": "SPSHQ5", "name": "Genres" },
-            { "cattax": 9, "id": "XtODT3", "name": "Crime & Harmful Acts to Individuals, Society & Human Right Violations" },
-            { "cattax": 9, "id": "v9i3On", "name": "Sensitive Topics" }
           ]
         },
         {
@@ -7895,6 +7829,60 @@
             { "cattax": 6, "id": "381", "name": "Disasters" },
             { "cattax": 7, "id": "381", "name": "Disasters" },
             { "cattax": 9, "id": "381", "name": "Disasters" }
+          ]
+        },
+        {
+          "id": 228,
+          "r0_code": "new.int",
+          "name": "International News",
+          "description": "News about events across countries and worldwide developments. The scope is relative to the publication's declared reference country or market, not the reader's location. Add relevant subject categories when known.",
+          "position": 3,
+          "keywords": [
+            "world headline",
+            "global news coverage",
+            "cross-border reporting"
+          ],
+          "iab": [
+            { "cattax": 1, "id": "IAB12-1", "name": "International News" },
+            { "cattax": 2, "id": "382", "name": "International News" },
+            { "cattax": 5, "id": "382", "name": "International News" },
+            { "cattax": 6, "id": "382", "name": "International News" }
+          ]
+        },
+        {
+          "id": 229,
+          "r0_code": "new.nat",
+          "name": "National News",
+          "description": "News of countrywide significance within the publication's declared reference country or market. Add relevant subject categories when known.",
+          "position": 4,
+          "keywords": [
+            "domestic headline",
+            "countrywide reporting",
+            "nationwide update"
+          ],
+          "iab": [
+            { "cattax": 1, "id": "IAB12-2", "name": "National News" },
+            { "cattax": 2, "id": "385", "name": "National News" },
+            { "cattax": 5, "id": "385", "name": "National News" },
+            { "cattax": 6, "id": "385", "name": "National News" }
+          ]
+        },
+        {
+          "id": 230,
+          "r0_code": "new.loc",
+          "name": "Local News",
+          "description": "News about a city, community or region within the publication's declared reference country or market. Add relevant subject categories when known.",
+          "position": 5,
+          "keywords": [
+            "community bulletin",
+            "municipal reporting",
+            "regional headline"
+          ],
+          "iab": [
+            { "cattax": 1, "id": "IAB12-3", "name": "Local News" },
+            { "cattax": 2, "id": "384", "name": "Local News" },
+            { "cattax": 5, "id": "384", "name": "Local News" },
+            { "cattax": 6, "id": "384", "name": "Local News" }
           ]
         }
       ]
@@ -8521,6 +8509,16 @@
             { "cattax": 6, "id": "1214", "name": "Zulu" }
           ]
         }
+      ]
+    },
+    {
+      "id": 231,
+      "r0_code": "unc",
+      "name": "Uncategorized",
+      "description": "Fallback for content that has not been classified or cannot be assigned a category with sufficient confidence. This does not imply general news, unsafe content or any particular subject.",
+      "position": 35,
+      "iab": [
+        { "cattax": 1, "id": "IAB24", "name": "Uncategorized" }
       ]
     }
   ]
