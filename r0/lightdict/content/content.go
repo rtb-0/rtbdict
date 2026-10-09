@@ -1,7 +1,10 @@
 // Package content is the r0 content dictionary without descriptions.
 package content
 
-import keyword "github.com/rtb-0/rtbdict/r0/keyword/content"
+import (
+	"github.com/rtb-0/rtbdict"
+	keyword "github.com/rtb-0/rtbdict/r0/keyword/content"
+)
 
 // IAB is one Content Taxonomy code placed on an r0 category.
 // The name is kept only in r0/dict/content.
@@ -92,12 +95,12 @@ func (n *Node) Parent() int {
 
 // HasParent reports whether id is this category's parent or a further ancestor.
 // The category itself does not count. A nil node returns false.
-func (n *Node) HasParent(id int) bool {
-	if n == nil || id == 0 || id == n.id {
+func (n *Node) HasParent[T rtbdict.ID](id T) bool {
+	if n == nil || id == 0 || int(id) == n.id {
 		return false
 	}
 	for p := n.parent; p != 0; p = ByID(p).Parent() {
-		if p == id {
+		if p == int(id) {
 			return true
 		}
 	}
@@ -105,13 +108,13 @@ func (n *Node) HasParent(id int) bool {
 }
 
 // HasParentOneOf reports whether any id is this category's parent or a further ancestor.
-func (n *Node) HasParentOneOf(ids ...int) bool {
+func (n *Node) HasParentOneOf[T rtbdict.ID](ids ...T) bool {
 	if n == nil {
 		return false
 	}
 	var mask uint64
 	for _, id := range ids {
-		if id == 0 || id == n.id {
+		if id == 0 || int(id) == n.id {
 			continue
 		}
 		mask |= uint64(1) << (uint(id) & 63)
@@ -124,7 +127,7 @@ func (n *Node) HasParentOneOf(ids ...int) bool {
 			continue
 		}
 		for _, id := range ids {
-			if p == id {
+			if p == int(id) {
 				return true
 			}
 		}

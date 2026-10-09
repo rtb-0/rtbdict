@@ -138,11 +138,14 @@ func TestHasParent(t *testing.T) {
 	if none.HasParent(9) || none.HasParentOneOf(9) {
 		t.Fatal("nil")
 	}
-	if !baby.HasParentOneOf(1, 67) || baby.HasParentOneOf(1, 2) || baby.HasParentOneOf() || baby.HasParentOneOf(171) || !baby.HasParentOneOf(171, 67) {
+	if !baby.HasParentOneOf(1, 67) || baby.HasParentOneOf(1, 2) || baby.HasParentOneOf[int]() || baby.HasParentOneOf(171) || !baby.HasParentOneOf(171, 67) {
 		t.Fatal("one of")
 	}
 	if !light.ByID(39).HasParentOneOf(2) {
 		t.Fatal("one of")
+	}
+	if !baby.HasParent(uint64(67)) || !baby.HasParentOneOf(uint64(171), uint64(67)) || !baby.HasParent(uint16(9)) {
+		t.Fatal("other id types")
 	}
 	allocs := testing.AllocsPerRun(100, func() {
 		if !baby.HasParent(9) {
