@@ -90,6 +90,48 @@ func (n *Node) Parent() int {
 	return n.parent
 }
 
+// HasParent reports whether id is this category's parent or a further ancestor.
+// The category itself does not count. A nil node returns false.
+func (n *Node) HasParent(id int) bool {
+	if n == nil || id == 0 || id == n.id {
+		return false
+	}
+	for p := n.parent; p != 0; p = ByID(p).Parent() {
+		if p == id {
+			return true
+		}
+	}
+	return false
+}
+
+// HasParentOneOf reports whether any id is this category's parent or a further ancestor.
+func (n *Node) HasParentOneOf(ids ...int) bool {
+	if n == nil {
+		return false
+	}
+	var mask uint64
+	for _, id := range ids {
+		if id == 0 || id == n.id {
+			continue
+		}
+		mask |= uint64(1) << (uint(id) & 63)
+	}
+	if mask == 0 {
+		return false
+	}
+	for p := n.parent; p != 0; p = ByID(p).Parent() {
+		if mask&(uint64(1)<<(uint(p)&63)) == 0 {
+			continue
+		}
+		for _, id := range ids {
+			if p == id {
+				return true
+			}
+		}
+	}
+	return false
+}
+
 // Children returns child r0 ids. The result is the stored slice.
 func (n *Node) Children() []int {
 	if n == nil {

@@ -140,3 +140,34 @@ func TestChildren(t *testing.T) {
 }
 
 var childSink int
+
+func TestHasParent(t *testing.T) {
+	baby := content.ByID(171)
+	if !baby.HasParent(67) || !baby.HasParent(9) {
+		t.Fatal("ancestors")
+	}
+	if baby.HasParent(171) || baby.HasParent(1) || baby.HasParent(0) {
+		t.Fatal("self, unrelated, or zero")
+	}
+	if content.ByID(9).HasParent(9) {
+		t.Fatal("root")
+	}
+	var none *content.Node
+	if none.HasParent(9) || none.HasParentOneOf(9) {
+		t.Fatal("nil")
+	}
+	if !baby.HasParentOneOf(1, 67) || baby.HasParentOneOf(1, 2) || baby.HasParentOneOf() || baby.HasParentOneOf(171) || !baby.HasParentOneOf(171, 67) {
+		t.Fatal("one of")
+	}
+	if !content.ByID(39).HasParentOneOf(2) {
+		t.Fatal("one of")
+	}
+	allocs := testing.AllocsPerRun(100, func() {
+		if !baby.HasParent(9) {
+			panic("parent")
+		}
+	})
+	if allocs != 0 {
+		t.Fatalf("allocs %v", allocs)
+	}
+}
